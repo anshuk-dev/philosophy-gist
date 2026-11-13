@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Architecture of Epistemic Trust &amp; Transcendental Cognition | Philosophy Gist</title>
+  <style>
+    /* Reset & Base */
+    body, p, h1, h2, h3, h4, ul, ol, li, blockquote {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: #F8FAFC;
+      color: #0F172A;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      padding: 24px 12px;
+    }
+    .wrapper {
+      max-width: 680px;
+      margin: 0 auto;
+      background-color: #FFFFFF;
+      border: 1px solid #E2E8F0;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    }
+    .header {
+      background-color: #0F172A;
+      color: #F8FAFC;
+      padding: 32px 28px 24px 28px;
+      border-bottom: 3px solid #0969DA;
+    }
+    .meta-badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      background-color: #1E293B;
+      color: #38BDF8;
+      border-radius: 4px;
+      margin-bottom: 12px;
+      border: 1px solid #334155;
+    }
+    .header h1 {
+      font-family: "Charter", "Bitstream Charter", "Georgia", serif;
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 1.25;
+      color: #FFFFFF;
+      margin-bottom: 8px;
+    }
+    .header p {
+      color: #94A3B8;
+      font-size: 14px;
+    }
+    .content-body {
+      padding: 28px;
+    }
+    .curriculum-banner {
+      background-color: #F1F5F9;
+      border-left: 4px solid #0969DA;
+      padding: 12px 16px;
+      border-radius: 0 6px 6px 0;
+      margin-bottom: 28px;
+      font-size: 13px;
+      color: #334155;
+    }
+    /* Flashcard Container */
+    .flashcard {
+      border: 1px solid #CBD5E1;
+      border-radius: 10px;
+      margin-bottom: 32px;
+      background-color: #FFFFFF;
+      overflow: hidden;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+    }
+    .card-header {
+      padding: 14px 20px;
+      background-color: #F8FAFC;
+      border-bottom: 1px solid #E2E8F0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .card-tag {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #0369A1;
+      background-color: #E0F2FE;
+      padding: 3px 8px;
+      border-radius: 4px;
+    }
+    .card-tag.western {
+      color: #7C2D12;
+      background-color: #FFEDD5;
+    }
+    .card-tag.comparative {
+      color: #3730A3;
+      background-color: #EEF2FF;
+    }
+    .card-body {
+      padding: 24px 20px;
+    }
+    .card-title {
+      font-family: "Charter", "Bitstream Charter", "Georgia", serif;
+      font-size: 20px;
+      font-weight: 700;
+      color: #0F172A;
+      margin-bottom: 12px;
+      line-height: 1.3;
+    }
+    .section-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #64748B;
+      margin-top: 16px;
+      margin-bottom: 6px;
+    }
+    .problem-box {
+      font-size: 15px;
+      color: #1E293B;
+      background-color: #F8FAFC;
+      padding: 12px 16px;
+      border-radius: 6px;
+      border-left: 3px solid #475569;
+      margin-bottom: 16px;
+      font-style: italic;
+    }
+    /* Lexicon Pills */
+    .lexicon-list {
+      margin-bottom: 18px;
+    }
+    .lexicon-item {
+      margin-bottom: 8px;
+      font-size: 13px;
+      color: #334155;
+    }
+    .lexicon-term {
+      font-family: ui-monospace, "SFMono-Regular", Menlo, Monaco, Consolas, monospace;
+      font-size: 12px;
+      font-weight: 600;
+      background-color: #F1F5F9;
+      color: #0F172A;
+      padding: 2px 6px;
+      border-radius: 4px;
+      border: 1px solid #E2E8F0;
+      margin-right: 6px;
+    }
+    /* Dialectic Split */
+    .dialectic-grid {
+      margin-bottom: 20px;
+    }
+    .dialectic-pane {
+      background-color: #FAFAFA;
+      border: 1px solid #E5E7EB;
+      border-radius: 6px;
+      padding: 14px;
+      margin-bottom: 10px;
+      font-size: 13.5px;
+      line-height: 1.55;
+    }
+    .pane-purvapaksha {
+      border-left: 4px solid #E11D48;
+    }
+    .pane-siddhanta {
+      border-left: 4px solid #16A34A;
+      background-color: #F0FDF4;
+    }
+    .pane-title {
+      font-weight: 700;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 6px;
+    }
+    .pane-purvapaksha .pane-title { color: #BE123C; }
+    .pane-siddhanta .pane-title { color: #15803D; }
+
+    /* Primary Source Box */
+    .source-box {
+      background-color: #F8FAFC;
+      border: 1px dashed #94A3B8;
+      border-radius: 6px;
+      padding: 10px 14px;
+      font-size: 12.5px;
+      color: #475569;
+      margin-bottom: 18px;
+    }
+    .source-label {
+      font-weight: 700;
+      color: #0F172A;
+    }
+
+    /* Interview Pitfall Box */
+    .trap-box {
+      background-color: #FFFBEB;
+      border: 1px solid #FCD34D;
+      border-radius: 6px;
+      padding: 14px;
+      margin-bottom: 18px;
+      font-size: 13.5px;
+      color: #92400E;
+      line-height: 1.5;
+    }
+    .trap-title {
+      font-weight: 700;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #B45309;
+      margin-bottom: 4px;
+    }
+
+    /* Wisdom Gist */
+    .wisdom-quote {
+      border-left: 3px solid #818CF8;
+      background-color: #F5F3FF;
+      padding: 12px 16px;
+      border-radius: 0 6px 6px 0;
+      font-family: "Charter", "Georgia", serif;
+      font-style: italic;
+      font-size: 14.5px;
+      color: #4338CA;
+      line-height: 1.55;
+    }
+
+    /* MCQs Section */
+    .mcq-section {
+      background-color: #F8FAFC;
+      border: 1px solid #E2E8F0;
+      border-radius: 10px;
+      padding: 22px 20px;
+      margin-top: 32px;
+    }
+    .mcq-section h2 {
+      font-family: "Charter", "Georgia", serif;
+      font-size: 18px;
+      color: #0F172A;
+      margin-bottom: 16px;
+      border-bottom: 1px solid #CBD5E1;
+      padding-bottom: 8px;
+    }
+    .mcq-item {
+      margin-bottom: 20px;
+      font-size: 13.5px;
+    }
+    .mcq-question {
+      font-weight: 600;
+      color: #0F172A;
+      margin-bottom: 8px;
+    }
+    .mcq-options {
+      list-style-type: none;
+      padding-left: 6px;
+      margin-bottom: 8px;
+    }
+    .mcq-options li {
+      padding: 3px 0;
+      color: #334155;
+    }
+    .mcq-answer {
+      font-size: 12.5px;
+      background-color: #F1F5F9;
+      border-left: 3px solid #0969DA;
+      padding: 6px 10px;
+      color: #1E293B;
+      border-radius: 0 4px 4px 0;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #F1F5F9;
+      padding: 24px 28px;
+      border-top: 1px solid #E2E8F0;
+      text-align: center;
+      font-size: 12px;
+      color: #64748B;
+    }
+    .footer a {
+      color: #0969DA;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Header -->
+    <div class="header">
+      <span class="meta-badge">DU PHILOSOPHY GIST • ISSUE #001</span>
+      <h1>The Architecture of Epistemic Trust &amp; Transcendental Cognition</h1>
+      <p>Autonomous Academic Flashcards & Wisdom Briefing for Central University Assistant Professor & UGC NET Aspirants</p>
+    </div>
+
+    <!-- Body -->
+    <div class="content-body">
+      <div class="curriculum-banner">
+        <strong>Curriculum Alignment:</strong> Units Covered Today:
+        
+          <strong>UNIT_01</strong> (Mīmāṃsā / Nyāya) &bull; 
+        
+          <strong>UNIT_03</strong> (Critical Idealism / Kantianism)
+        
+      </div>
+
+      <!-- Flashcard 1 & 2 -->
+      
+      <div class="flashcard">
+        <div class="card-header">
+          <span class="card-tag ">
+            Indian Philosophy &bull; UNIT_01
+          </span>
+          <span style="font-size: 11px; color: #64748B; font-weight: 600;">ID: IND_EPIST_001</span>
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Svataḥ Prāmāṇyavāda vs. Parataḥ Prāmāṇyavāda</h2>
+          <div style="font-size: 12.5px; color: #64748B; margin-bottom: 12px;"><strong>School:</strong> Mīmāṃsā / Nyāya | <strong>Topic:</strong> Epistemology: Theories of Truth &amp; Validity</div>
+
+          <div class="section-label">1. The Core Dilemma (The Problem)</div>
+          <div class="problem-box">
+            "Does a valid cognition (pramā) possess intrinsic validity from the very moment and causes of its emergence, or does its validity require extrinsic verification through pragmatic efficacy or another cognition?"
+          </div>
+
+          <div class="section-label">2. Technical Lexicon & Philosophical Vocabulary</div>
+          <div class="lexicon-list">
+            
+            <div class="lexicon-item">
+              <span class="lexicon-term">Svataḥ Prāmāṇya (स्वतः प्रामाण्य)</span> &mdash; Intrinsic validity; self-authentication of cognition in both origin (utpattau) and apprehension (jñāptau).
+            </div>
+            
+            <div class="lexicon-item">
+              <span class="lexicon-term">Parataḥ Prāmāṇya (परतः प्रामाण्य)</span> &mdash; Extrinsic validity; knowledge validated via special causal excellence (guṇa) and subsequent fruitful activity (pravṛtti-sāmarthya).
+            </div>
+            
+            <div class="lexicon-item">
+              <span class="lexicon-term">Anavasthā (अनवस्था)</span> &mdash; Vicious infinite regress that ensues if every cognition requires a subsequent cognition to establish its truth.
+            </div>
+            
+            <div class="lexicon-item">
+              <span class="lexicon-term">Bādhaka-jñāna (बाधकज्ञान)</span> &mdash; Sublating or defeater cognition that cancels an erroneous apprehension.
+            </div>
+            
+          </div>
+
+          <div class="section-label">3. The Dialectic: Purvapaksha vs. Siddhanta</div>
+          <div class="dialectic-grid">
+            <div class="dialectic-pane pane-purvapaksha">
+              <div class="pane-title">Pūrvapakṣa (The Opponent's Challenge)</div>
+              <div>The Nyāya school (Uddyotakāra, Vācaspati Miśra, Jayanta Bhaṭṭa) objects: If all cognitions were intrinsically valid, doubts (saṃśaya) and illusions (bhrama) would never occur. A thirsty man sees liquid in a desert; he does not know it is real water until he moves toward it and successfully quenches his thirst. Truth is an extrinsic property verified by successful pragmatic action (pravṛtti-sāmarthya).</div>
+            </div>
+            <div class="dialectic-pane pane-siddhanta">
+              <div class="pane-title">Siddhānta (Philosophical Defense & Resolution)</div>
+              <div>Kumārila Bhaṭṭa (Bhāṭṭa Mīmāṃsā) counters: If cognition A requires cognition B to prove it true, and cognition B requires cognition C, cognition can never arrive at certainty, resulting in an endless regress (anavasthā). Cognition is self-luminous regarding its truth from the very conditions that produce it. Falsity (aprāmāṇya) alone is extrinsic, arising from defects in the apparatus (doṣa) and exposed by a defeater (bādhaka-jñāna).</div>
+            </div>
+          </div>
+
+          <div class="section-label">4. Primary Canonical Source Citation</div>
+          <div class="source-box">
+            <span class="source-label">Author:</span> Kumārila Bhaṭṭa &bull;
+            <span class="source-label">Work:</span> <em>Ślokavārttika</em> &bull;
+            <span class="source-label">Locus:</span> Codanā-sūtra adhikaraṇa, verses 33–61; see also Jayanta Bhaṭṭa&#39;s Nyāyamañjarī (Āhnika 1).
+          </div>
+
+          <div class="section-label">5. Selection Committee / University Interview Pitfall</div>
+          <div class="trap-box">
+            <div class="trap-title">&#9888; Interview Trap Question</div>
+            Central University panels frequently test the distinction between Bhāṭṭa and Prābhākara Mīmāṃsā on this point: While both accept Svataḥ Prāmāṇya, Bhāṭṭas hold that cognition itself is unperceived and inferred from the &#39;knownness&#39; (jñātatā) produced in the object, whereas Prābhākaras reject jñātatā and argue for &#39;Tripuṭī-pratyakṣa&#39; (simultaneous direct awareness of knower, known, and knowing) and maintain that NO cognition is ever false (Akhyātivāda).
+          </div>
+
+          <div class="section-label">6. Wisdom Gist (Reflective Synthesis)</div>
+          <div class="wisdom-quote">
+            "At the root of knowledge lies a fundamental epistemic trust. If the human mind required an absolute extrinsic certification before granting any apprehension validity, thought would be paralyzed in infinite regression. We begin with trust; skepticism is only warranted when a concrete contradiction emerges."
+          </div>
+        </div>
+      </div>
+      
+      <div class="flashcard">
+        <div class="card-header">
+          <span class="card-tag western">
+            Western Philosophy &bull; UNIT_03
+          </span>
+          <span style="font-size: 11px; color: #64748B; font-weight: 600;">ID: WEST_EPIST_001</span>
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Synthetic A Priori Judgments &amp; Transcendental Deduction</h2>
+          <div style="font-size: 12.5px; color: #64748B; margin-bottom: 12px;"><strong>School:</strong> Critical Idealism / Kantianism | <strong>Topic:</strong> Epistemology: The Possibility of Metaphysics</div>
+
+          <div class="section-label">1. The Core Dilemma (The Problem)</div>
+          <div class="problem-box">
+            "How are judgments possible that are genuinely informative about reality (synthetic) yet simultaneously universally and necessarily true prior to any empirical trial (a priori)?"
+          </div>
+
+          <div class="section-label">2. Technical Lexicon & Philosophical Vocabulary</div>
+          <div class="lexicon-list">
+            
+            <div class="lexicon-item">
+              <span class="lexicon-term">Synthetic a priori</span> &mdash; A judgment where the predicate is not contained within the concept of the subject (ampliative), yet holds with strict universality and necessity.
+            </div>
+            
+            <div class="lexicon-item">
+              <span class="lexicon-term">Copernican Revolution in Philosophy</span> &mdash; The radical epistemological reversal: instead of human cognition conforming to objects, objects must conform to our cognitive faculties.
+            </div>
+            
+            <div class="lexicon-item">
+              <span class="lexicon-term">Transcendental Deduction (Transzendentale Deduktion)</span> &mdash; The legal/justificatory demonstration that the categories of the understanding have objective validity regarding all possible appearances.
+            </div>
+            
+            <div class="lexicon-item">
+              <span class="lexicon-term">Transcendental Unity of Apperception</span> &mdash; The supreme formal condition of all cognition: the &#39;I think&#39; that must be able to accompany all my representations.
+            </div>
+            
+          </div>
+
+          <div class="section-label">3. The Dialectic: Purvapaksha vs. Siddhanta</div>
+          <div class="dialectic-grid">
+            <div class="dialectic-pane pane-purvapaksha">
+              <div class="pane-title">Pūrvapakṣa (The Opponent's Challenge)</div>
+              <div>Hume&#39;s Fork had bifurcated all propositions into &#39;Relations of Ideas&#39; (analytic, a priori, tautologous, e.g., geometry/logic) and &#39;Matters of Fact&#39; (synthetic, a posteriori, contingent, e.g., causality). Hume argued that causality is merely psychological habituation, undermining the epistemic foundation of natural science and metaphysics.</div>
+            </div>
+            <div class="dialectic-pane pane-siddhanta">
+              <div class="pane-title">Siddhānta (Philosophical Defense & Resolution)</div>
+              <div>Kant demonstrates in the Critique of Pure Reason that mathematics (7 + 5 = 12) and the pure principles of natural science (&#39;every event must have a cause&#39;) are synthetic a priori. They are not psychological habits, but the necessary structural conditions (forms of intuition: space and time; categories: substance, causality) through which alone an objective world of experience can be constituted.</div>
+            </div>
+          </div>
+
+          <div class="section-label">4. Primary Canonical Source Citation</div>
+          <div class="source-box">
+            <span class="source-label">Author:</span> Immanuel Kant &bull;
+            <span class="source-label">Work:</span> <em>Critique of Pure Reason (Kritik der reinen Vernunft)</em> &bull;
+            <span class="source-label">Locus:</span> B-Deduction (§§ 15–27, B129–B169) and Introduction to the 2nd Edition (B1–B30).
+          </div>
+
+          <div class="section-label">5. Selection Committee / University Interview Pitfall</div>
+          <div class="trap-box">
+            <div class="trap-title">&#9888; Interview Trap Question</div>
+            In interviews, candidates are often asked: &#39;Did Kant claim we know the Ding an sich (thing-in-itself) via pure reason?&#39; The trap is conflating the formal conditions of experience with ontological access. Kant strictly limits synthetic a priori knowledge to &#39;phenomena&#39; (appearances). The &#39;noumena&#39; / &#39;Ding an sich&#39; remains a limiting concept (Grenzbegriff); reason attempting to know it falls into inescapable Dialectical Antinomies.
+          </div>
+
+          <div class="section-label">6. Wisdom Gist (Reflective Synthesis)</div>
+          <div class="wisdom-quote">
+            "The human mind does not passively reflect a ready-made external universe like a mirror; it actively synthesizes the manifold of sensory chaos into coherent reality. Order, causality, and continuity are gifts of consciousness to the world we inhabit."
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- Synthesis Note -->
+      
+      <div style="background-color: #F8FAFC; border: 1px solid #CBD5E1; border-radius: 10px; padding: 20px; margin-bottom: 28px;">
+        <h3 style="font-family: 'Charter', 'Georgia', serif; font-size: 17px; color: #0F172A; margin-bottom: 8px;">
+          Dialectical Bridge: Comparative Insight
+        </h3>
+        <p style="font-size: 14px; color: #334155; line-height: 1.6;">
+          Both Kumārila Bhaṭṭa&#39;s Svataḥ Prāmāṇyavāda and Immanuel Kant&#39;s Transcendental Deduction rebel against paralyzing skepticism. For the Mīmāṃsaka, skepticism is halted by positing that cognition is intrinsically true until actively falsified; for Kant, skepticism is halted by proving that the categorical structures of the mind are the very preconditions for an objective world to appear at all. Both recognize that knowledge cannot be justified from a neutral, detached vantage point outside experience itself.
+        </p>
+      </div>
+      
+
+      <!-- Practice Questions -->
+      <div class="mcq-section">
+        <h2>Central University Interview & UGC NET Practice MCQs</h2>
+        
+        <div class="mcq-item">
+          <div class="mcq-question">Q1. According to Bhāṭṭa Mīmāṃsā, how is the validity (prāmāṇya) of a cognition known?</div>
+          <ul class="mcq-options">
+            
+            <li>(A) Directly perceived simultaneously with the object via Sākṣī</li>
+            
+            <li>(B) Inferred from the &#39;knownness&#39; (jñātatā) produced in the object</li>
+            
+            <li>(C) Verified exclusively through pragmatic success (pravṛtti-sāmarthya)</li>
+            
+            <li>(D) Ascertained by an extraordinary divine perception (Alaukika Pratyakṣa)</li>
+            
+          </ul>
+          <div class="mcq-answer">
+            <strong>Correct: (B)</strong> &mdash; Kumārila Bhaṭṭa holds that cognition is supersensuous (atīndriya); we infer cognition and its intrinsic validity from the property of &#39;knownness&#39; (jñātatā or prākaṭya) generated in the known object.
+          </div>
+        </div>
+        
+        <div class="mcq-item">
+          <div class="mcq-question">Q2. Which of the following propositions represents a &#39;Synthetic A Priori&#39; judgment for Kant?</div>
+          <ul class="mcq-options">
+            
+            <li>(A) All bachelors are unmarried men</li>
+            
+            <li>(B) All bodies are extended</li>
+            
+            <li>(C) A straight line between two points is the shortest</li>
+            
+            <li>(D) The swan in the lake is white</li>
+            
+          </ul>
+          <div class="mcq-answer">
+            <strong>Correct: (C)</strong> &mdash; In the B-Introduction to CPR, Kant explains that &#39;straight&#39; is a purely qualitative concept containing no notion of magnitude or quantity; that it is &#39;the shortest&#39; is an ampliative (synthetic) discovery that nonetheless holds with universal necessity (a priori).
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p style="margin-bottom: 6px;">
+        <strong>Philosophy Gist</strong> &bull; Prepared with academic rigor for Central University Assistant Professor Candidates.
+      </p>
+      <p style="margin-bottom: 10px;">
+        Delivered automatically to <strong>anshukumar64149@gmail.com</strong> via GitHub Actions Server.
+      </p>
+      <p>
+        <a href="https://github.com/anshuk-dev/philosophy-gist">GitHub Repository</a> &bull;
+        <a href="https://github.com/anshuk-dev/du-philosophy-news">DU Vacancy Alerts</a> &bull;
+        <a href="https://plato.stanford.edu/">SEP</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>

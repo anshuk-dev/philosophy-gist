@@ -1,0 +1,90 @@
+{
+  "units": [
+    {
+      "id": "UNIT_01",
+      "name": "Classical Indian Philosophy",
+      "weightage_pct": 25,
+      "tradition": "Indian",
+      "schools": [
+        "Vedic & Upanisadic Thought",
+        "Cārvāka (Lokāyata)",
+        "Jainism",
+        "Buddhism (Madhyamaka, Yogācāra, Sautrāntika, Vaibhāṣika)",
+        "Nyāya",
+        "Vaiśeṣika",
+        "Sāṃkhya",
+        "Yoga",
+        "Pūrva Mīmāṃsā (Bhāṭṭa & Prābhākara)",
+        "Vedānta (Advaita, Viśiṣṭādvaita, Dvaita, Dvaitādvaita, Śuddhādvaita, Acintyabhedābheda)"
+      ]
+    },
+    {
+      "id": "UNIT_02",
+      "name": "Classical Western Philosophy",
+      "weightage_pct": 15,
+      "tradition": "Western",
+      "schools": [
+        "Pre-Socratics (Heraclitus, Parmenides, Democritus)",
+        "Socratic Method (Elenchus)",
+        "Platonic Idealism (Forms, Divided Line, Allegory of Cave, Soul)",
+        "Aristotelian Substance, Hylomorphism, Causation, Teleology",
+        "Hellenistic & Medieval (Stoicism, Epicureanism, Augustine, Aquinas)"
+      ]
+    },
+    {
+      "id": "UNIT_03",
+      "name": "Modern Western Philosophy",
+      "weightage_pct": 20,
+      "tradition": "Western",
+      "schools": [
+        "Continental Rationalism (Descartes, Spinoza, Leibniz)",
+        "British Empiricism (Locke, Berkeley, Hume)",
+        "Critical Idealism (Kant's Critique of Pure Reason, Synthetic A Priori, Antinomies)",
+        "German Idealism (Hegel's Dialectical Method, Absolute Spirit)"
+      ]
+    },
+    {
+      "id": "UNIT_04",
+      "name": "Contemporary Western Philosophy",
+      "weightage_pct": 15,
+      "tradition": "Western",
+      "schools": [
+        "Phenomenology (Husserl, Merleau-Ponty)",
+        "Existentialism (Kierkegaard, Nietzsche, Heidegger, Sartre)",
+        "Early & Late Analytic Philosophy (Frege, Russell, Wittgenstein)",
+        "Logical Positivism & Verificationism (Ayer, Carnap)",
+        "Post-Positivism & Pragmatism (Quine, Peirce, James, Dewey)",
+        "Critical Theory & Postmodernism (Habermas, Foucault, Derrida)"
+      ]
+    },
+    {
+      "id": "UNIT_05",
+      "name": "Contemporary Indian Philosophy",
+      "weightage_pct": 15,
+      "tradition": "Indian",
+      "schools": [
+        "Swami Vivekananda (Practical Vedānta, Universal Religion)",
+        "Sri Aurobindo (Involution, Evolution, Integral Yoga, Supermind)",
+        "M. K. Gandhi (Satyāgraha, Ahiṃsā, Sarvodaya, Swaraj)",
+        "Dr. B. R. Ambedkar (Neo-Buddhism/Navayāna, Critique of Caste, Liberty-Equality-Fraternity)",
+        "K. C. Bhattacharyya (Swaraj in Ideas, The Subject as Freedom)",
+        "Sarvepalli Radhakrishnan (An Idealist View of Life, Intellect vs Intuition)",
+        "J. Krishnamurti (Freedom from the Known, Choiceless Awareness)",
+        "M. N. Roy (Radical Humanism)"
+      ]
+    },
+    {
+      "id": "UNIT_06",
+      "name": "Comparative Epistemology, Logic & Ethics",
+      "weightage_pct": 10,
+      "tradition": "Comparative",
+      "schools": [
+        "Pramāṇa Theory & Theories of Truth (Svataḥ vs Parataḥ Prāmāṇya)",
+        "Khyātivāda (Theories of Error in Indian Philosophy)",
+        "Indian Logic (Anumāna, Hetu, Vyāpti, Hetvābhāsa)",
+        "Normative Ethics & Meta-ethics (Deontology, Utilitarianism, Virtue, Puruṣārthas, Niṣkāma Karma)",
+        "Social Justice & Political Philosophy (Rawls, Nozick, Ambedkar, Sen)"
+      ]
+    }
+  ]
+}

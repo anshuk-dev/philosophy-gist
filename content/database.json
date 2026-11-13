@@ -1,0 +1,266 @@
+{
+  "curriculum_version": "UGC_NET_DU_CU_2026",
+  "flashcards": [
+    {
+      "id": "IND_EPIST_001",
+      "unit_id": "UNIT_01",
+      "tradition": "Indian",
+      "school": "Mīmāṃsā / Nyāya",
+      "topic": "Epistemology: Theories of Truth & Validity",
+      "concept_name": "Svataḥ Prāmāṇyavāda vs. Parataḥ Prāmāṇyavāda",
+      "the_problem": "Does a valid cognition (pramā) possess intrinsic validity from the very moment and causes of its emergence, or does its validity require extrinsic verification through pragmatic efficacy or another cognition?",
+      "technical_lexicon": [
+        {"term": "Svataḥ Prāmāṇya (स्वतः प्रामाण्य)", "meaning": "Intrinsic validity; self-authentication of cognition in both origin (utpattau) and apprehension (jñāptau)."},
+        {"term": "Parataḥ Prāmāṇya (परतः प्रामाण्य)", "meaning": "Extrinsic validity; knowledge validated via special causal excellence (guṇa) and subsequent fruitful activity (pravṛtti-sāmarthya)."},
+        {"term": "Anavasthā (अनवस्था)", "meaning": "Vicious infinite regress that ensues if every cognition requires a subsequent cognition to establish its truth."},
+        {"term": "Bādhaka-jñāna (बाधकज्ञान)", "meaning": "Sublating or defeater cognition that cancels an erroneous apprehension."}
+      ],
+      "dialectic": {
+        "purvapaksha": "The Nyāya school (Uddyotakāra, Vācaspati Miśra, Jayanta Bhaṭṭa) objects: If all cognitions were intrinsically valid, doubts (saṃśaya) and illusions (bhrama) would never occur. A thirsty man sees liquid in a desert; he does not know it is real water until he moves toward it and successfully quenches his thirst. Truth is an extrinsic property verified by successful pragmatic action (pravṛtti-sāmarthya).",
+        "siddhanta": "Kumārila Bhaṭṭa (Bhāṭṭa Mīmāṃsā) counters: If cognition A requires cognition B to prove it true, and cognition B requires cognition C, cognition can never arrive at certainty, resulting in an endless regress (anavasthā). Cognition is self-luminous regarding its truth from the very conditions that produce it. Falsity (aprāmāṇya) alone is extrinsic, arising from defects in the apparatus (doṣa) and exposed by a defeater (bādhaka-jñāna)."
+      },
+      "primary_text": {
+        "author": "Kumārila Bhaṭṭa",
+        "work": "Ślokavārttika",
+        "passage": "Codanā-sūtra adhikaraṇa, verses 33–61; see also Jayanta Bhaṭṭa's Nyāyamañjarī (Āhnika 1)."
+      },
+      "interview_trap": "Central University panels frequently test the distinction between Bhāṭṭa and Prābhākara Mīmāṃsā on this point: While both accept Svataḥ Prāmāṇya, Bhāṭṭas hold that cognition itself is unperceived and inferred from the 'knownness' (jñātatā) produced in the object, whereas Prābhākaras reject jñātatā and argue for 'Tripuṭī-pratyakṣa' (simultaneous direct awareness of knower, known, and knowing) and maintain that NO cognition is ever false (Akhyātivāda).",
+      "wisdom_gist": "At the root of knowledge lies a fundamental epistemic trust. If the human mind required an absolute extrinsic certification before granting any apprehension validity, thought would be paralyzed in infinite regression. We begin with trust; skepticism is only warranted when a concrete contradiction emerges."
+    },
+    {
+      "id": "WEST_EPIST_001",
+      "unit_id": "UNIT_03",
+      "tradition": "Western",
+      "school": "Critical Idealism / Kantianism",
+      "topic": "Epistemology: The Possibility of Metaphysics",
+      "concept_name": "Synthetic A Priori Judgments & Transcendental Deduction",
+      "the_problem": "How are judgments possible that are genuinely informative about reality (synthetic) yet simultaneously universally and necessarily true prior to any empirical trial (a priori)?",
+      "technical_lexicon": [
+        {"term": "Synthetic a priori", "meaning": "A judgment where the predicate is not contained within the concept of the subject (ampliative), yet holds with strict universality and necessity."},
+        {"term": "Copernican Revolution in Philosophy", "meaning": "The radical epistemological reversal: instead of human cognition conforming to objects, objects must conform to our cognitive faculties."},
+        {"term": "Transcendental Deduction (Transzendentale Deduktion)", "meaning": "The legal/justificatory demonstration that the categories of the understanding have objective validity regarding all possible appearances."},
+        {"term": "Transcendental Unity of Apperception", "meaning": "The supreme formal condition of all cognition: the 'I think' that must be able to accompany all my representations."}
+      ],
+      "dialectic": {
+        "purvapaksha": "Hume's Fork had bifurcated all propositions into 'Relations of Ideas' (analytic, a priori, tautologous, e.g., geometry/logic) and 'Matters of Fact' (synthetic, a posteriori, contingent, e.g., causality). Hume argued that causality is merely psychological habituation, undermining the epistemic foundation of natural science and metaphysics.",
+        "siddhanta": "Kant demonstrates in the Critique of Pure Reason that mathematics (7 + 5 = 12) and the pure principles of natural science ('every event must have a cause') are synthetic a priori. They are not psychological habits, but the necessary structural conditions (forms of intuition: space and time; categories: substance, causality) through which alone an objective world of experience can be constituted."
+      },
+      "primary_text": {
+        "author": "Immanuel Kant",
+        "work": "Critique of Pure Reason (Kritik der reinen Vernunft)",
+        "passage": "B-Deduction (§§ 15–27, B129–B169) and Introduction to the 2nd Edition (B1–B30)."
+      },
+      "interview_trap": "In interviews, candidates are often asked: 'Did Kant claim we know the Ding an sich (thing-in-itself) via pure reason?' The trap is conflating the formal conditions of experience with ontological access. Kant strictly limits synthetic a priori knowledge to 'phenomena' (appearances). The 'noumena' / 'Ding an sich' remains a limiting concept (Grenzbegriff); reason attempting to know it falls into inescapable Dialectical Antinomies.",
+      "wisdom_gist": "The human mind does not passively reflect a ready-made external universe like a mirror; it actively synthesizes the manifold of sensory chaos into coherent reality. Order, causality, and continuity are gifts of consciousness to the world we inhabit."
+    },
+    {
+      "id": "IND_META_001",
+      "unit_id": "UNIT_01",
+      "tradition": "Indian",
+      "school": "Sāṃkhya vs. Nyāya-Vaiśeṣika",
+      "topic": "Metaphysics: Theories of Causation",
+      "concept_name": "Satkāryavāda vs. Asatkāryavāda (Pariṇāmavāda vs. Ārambhavāda)",
+      "the_problem": "Does the effect (kārya) already pre-exist potentially in the cause (kāraṇa) prior to its empirical manifestation, or is the effect an entirely new entity brought into existence de novo?",
+      "technical_lexicon": [
+        {"term": "Satkāryavāda (सत्कार्यवाद)", "meaning": "The doctrine that the effect pre-exists in its material cause in an unmanifest (avyakta) state."},
+        {"term": "Pariṇāmavāda (परिणामवाद)", "meaning": "Real transformation; the cause actually transforms into the effect (held by Sāṃkhya and Viśiṣṭādvaita)."},
+        {"term": "Asatkāryavāda / Ārambhavāda (असत्कार्यवाद / आरम्भवाद)", "meaning": "The doctrine of fresh origination: the effect is non-existent before production; causal operation produces a genuinely new substance."},
+        {"term": "Vivartavāda (विवर्तवाद)", "meaning": "Apparent or illusory transformation; the cause appears as the effect without undergoing real ontological change (Advaita Vedānta)."}
+      ],
+      "dialectic": {
+        "purvapaksha": "The Nyāya-Vaiśeṣika argues: If the pot already existed inside the clay lump, the potter's effort (kārakavyāpāra) would be utterly redundant. Moreover, we do not fetch water with a lump of clay; the pot serves a practical function (arthakriyā) that clay cannot. Therefore, the pot is a completely new entity produced at a specific moment.",
+        "siddhanta": "Īśvarakṛṣṇa in the Sāṃkhyakārikā provides five classic proofs for Satkāryavāda: (1) Asad-akaraṇāt (what does not exist cannot be produced, e.g., oil from sand); (2) Upādāna-grahaṇāt (specific materials must be chosen for specific effects); (3) Sarvasambhavābhāvāt (not everything can produce anything); (4) Śaktasya śakya-karaṇāt (a competent cause produces only what it has the potential for); (5) Kāraṇa-bhāvāc-ca (the effect is of the identical essence as the cause). The potter merely manifests (abhivyakti) what was latent."
+      },
+      "primary_text": {
+        "author": "Īśvarakṛṣṇa",
+        "work": "Sāṃkhyakārikā",
+        "passage": "Kārikā 9 ('asadakaraṇād upādānagrahaṇāt... satkāryam')."
+      },
+      "interview_trap": "Carefully separate the two forms of Satkāryavāda: Sāṃkhya's 'Pariṇāma-vāda' (real transformation, Prakṛti actually evolves into Mahat, Ahaṃkāra, etc.) versus Śaṅkara's 'Vivarta-vāda' (the world is an illusory superimposition on unchanging Brahman). Both accept Satkāryavāda, but differ radically on the ontological status of the modification.",
+      "wisdom_gist": "Nothing emerges out of sheer ontological nothingness. Transformation is the unfolding of inherent latency, reminding us that potentiality precedes actuality in all creative and intellectual life."
+    },
+    {
+      "id": "WEST_META_001",
+      "unit_id": "UNIT_03",
+      "tradition": "Western",
+      "school": "British Empiricism",
+      "topic": "Epistemology: Causation & Inductive Skepticism",
+      "concept_name": "Hume's Problem of Induction & Critique of Necessary Connection",
+      "the_problem": "Can we logically justify our universal expectation that unobserved instances will resemble observed instances, or that causes contain a necessary power to produce their effects?",
+      "technical_lexicon": [
+        {"term": "Constant Conjunction", "meaning": "The observable empirical relation where event A is repeatedly followed by event B in time and space, without any observable nexus of power."},
+        {"term": "Necessary Connection", "meaning": "The metaphysical assumption of an intrinsic, unbreakable tie between cause and effect, which Hume declares empirically undetectable."},
+        {"term": "Custom or Habit (Sittliche Gewohnheit)", "meaning": "The psychological disposition of the human animal that projects necessity onto nature based on repeated past associations."},
+        {"term": "Uniformity of Nature", "meaning": "The inductive premise that the future will resemble the past, which cannot be justified demonstratively or inductively without begging the question (petitio principii)."}
+      ],
+      "dialectic": {
+        "purvapaksha": "Aristotelian-Scholastic and Cartesian rationalists asserted that cause and effect possess an intelligible necessary connection discoverable by reason (e.g., an effect cannot contain more perfection or reality than its cause).",
+        "siddhanta": "Hume shows in the Enquiry and Treatise that if we inspect any instance of causation (e.g., billiard ball A striking ball B), we observe contiguity in space and priority in time, but NEVER the supposed 'power' or 'necessary connection'. If we seek to justify induction by appealing to past regularities, we presuppose the very principle of induction we sought to prove, falling into circular reasoning. Induction is grounded in animal habit, not rational proof."
+      },
+      "primary_text": {
+        "author": "David Hume",
+        "work": "An Enquiry Concerning Human Understanding",
+        "passage": "Section IV ('Sceptical Doubts concerning the Operations of the Understanding') and Section VII ('Of the Idea of Necessary Connection')."
+      },
+      "interview_trap": "Selection committees often ask: 'Did Hume deny causation?' The trap is to say yes. Hume never denied that events occur in regular succession or that humans must act on causal expectations; he denied that reason can demonstrate the necessary connection or provide a non-circular epistemic foundation for induction.",
+      "wisdom_gist": "Humility is the pinnacle of philosophy. Much of what human beings dogmatically label 'absolute universal law' is an instinctive projection of animal habit onto a universe that never promised us certainty."
+    },
+    {
+      "id": "IND_EPIST_002",
+      "unit_id": "UNIT_06",
+      "tradition": "Indian",
+      "school": "Comparative Indian Epistemology",
+      "topic": "Khyātivāda: The Indian Theories of Perceptual Error",
+      "concept_name": "The Five Classic Khyātivādas (Theory of Illusion)",
+      "the_problem": "When a person mistakes a rope for a snake or mother-of-pearl (śukti) for silver (rajata), what is the ontological and cognitive status of the erroneous object perceived?",
+      "technical_lexicon": [
+        {"term": "Anirvacanīyakhyāti (अनिर्वचनीयख्याति)", "meaning": "Advaita Vedānta: The illusory silver is indescribable as either real (sat) or unreal (asat); it is produced by Māyā/Avidyā and cancelled by true cognition."},
+        {"term": "Anyathākhyāti (अन्यथाख्याति)", "meaning": "Nyāya: The object is real, but perceived 'otherwise' (anyathā) due to memory of real silver seen elsewhere revivified by extraordinary sense-contact (jñānalakṣaṇa-sannikarṣa)."},
+        {"term": "Akhyāti (अख्याति)", "meaning": "Prābhākara Mīmāṃsā: Non-apprehension; error is not a single misperception but failure to distinguish between direct perception of shell and memory of silver."},
+        {"term": "Ātmakhyāti (आत्मख्याति)", "meaning": "Yogācāra Buddhism: The illusory object is an internal mental idea projected outwards as external."},
+        {"term": "Asatkhyāti (असत्ख्याति)", "meaning": "Madhyamaka / Cārvāka: The illusory object is utterly non-existent (asat) being perceived as existent."}
+      ],
+      "dialectic": {
+        "purvapaksha": "The Naiyāyika attacks Advaita: How can an object be 'indescribable'? An entity must be either real or unreal; the law of excluded middle demands it. The silver is real silver existing in a market stall, presented here through defect and memory.",
+        "siddhanta": "Śaṅkara and Madhusūdana Sarasvatī counter: The silver cannot be SAT (real), because it is sublated (bādhita) when the shell is seen. It cannot be ASAT (utterly non-existent like a hare's horn or sky-flower), because it was directly experienced and caused fear or greed. Hence, error forces us to recognize an ontological category beyond binary reality: Anirvacanīya (ontologically indescribable)."
+      },
+      "primary_text": {
+        "author": "Śaṅkarācārya",
+        "work": "Brahmasūtra-Bhāṣya",
+        "passage": "Adhyāsa-Bhāṣya (Preamble on Superimposition): 'Smṛtirūpaḥ paratra pūrvadṛṣṭāvabhāsaḥ'."
+      },
+      "interview_trap": "A favorite UGC NET / University interview question: 'Which school accepts Viparyaya-khyāti?' (Bhāṭṭa Mīmāṃsā, which is a variant of Anyathākhyāti). Another trap: Prābhākaras do NOT accept that error is an active positive misjudgment; they call it 'Vivekāgraha' (non-discrimination of two real valid cognitions).",
+      "wisdom_gist": "Error is not mere nothingness; it has an undeniable phenomenological presence that shapes actions and emotions until the moment of sublation. Liberation begins when we realize our most vivid convictions may be glittering shells mistaken for silver."
+    },
+    {
+      "id": "WEST_LANG_001",
+      "unit_id": "UNIT_04",
+      "tradition": "Western",
+      "school": "Analytic Philosophy",
+      "topic": "Philosophy of Language: Sense, Reference & Descriptions",
+      "concept_name": "Frege's Sense & Reference vs. Russell's Theory of Definite Descriptions",
+      "the_problem": "How can statements of identity between distinct terms (e.g., 'The Morning Star is the Evening Star') be informative, and how can statements about non-existent entities (e.g., 'The present King of France is bald') be meaningful and truth-evaluable?",
+      "technical_lexicon": [
+        {"term": "Sinn (Sense)", "meaning": "Frege: The 'mode of presentation' (Art des Gegebenseins) of an object contained within a linguistic expression."},
+        {"term": "Bedeutung (Reference / Meaning)", "meaning": "Frege: The actual worldly object or truth-value designated by the expression."},
+        {"term": "Definite Description", "meaning": "Russell: Expressions of the form 'the so-and-so' (e.g., 'the author of Waverley') which appear to be singular terms but are grammatically disguised existential quantifiers."},
+        {"term": "Primary vs. Secondary Occurrence", "meaning": "Russell's scope distinction resolving ambiguities in modal and intensional contexts regarding non-referring descriptions."}
+      ],
+      "dialectic": {
+        "purvapaksha": "Alexius Meinong argued that since 'The present King of France' is the subject of meaningful discourse, it must possess some form of being ('Aussersein' or subsistence), even if it lacks empirical existence.",
+        "siddhanta": "Russell in 'On Denoting' (1905) rejected Meinong's ontological zoo by showing that surface grammar deceives us. 'The King of France is bald' does not refer to an unreal king; its logical form is a conjunction of three claims: (1) There exists an x such that x is King of France; (2) For all y, if y is King of France, y = x (uniqueness); (3) x is bald. Because premise 1 is false, the whole sentence is simply FALSE, with no need for subsisting entities."
+      },
+      "primary_text": {
+        "author": "Bertrand Russell & Gottlob Frege",
+        "work": "Russell's 'On Denoting' (Mind, 1905) & Frege's 'Über Sinn und Bedeutung' (1892)",
+        "passage": "Russell, Mind 14 (1905): 479–493; Frege, Zeitschrift für Philosophie und philosophische Kritik 100 (1892): 25–50."
+      },
+      "interview_trap": "Compare Frege and Russell on truth-values of sentences with non-referring singular terms: For Frege, 'The King of France is bald' has a Sense (Sinn) but lacks a Reference (Bedeutung); thus it has a TRUTH-VALUE GAP (neither true nor false). For Russell, the same sentence is strictly FALSE.",
+      "wisdom_gist": "Language is a master of illusion. Many of the deepest metaphysical phantoms that have tortured human minds for millennia evaporate the moment we distinguish the superficial grammar of words from the rigorous logical architecture of thought."
+    },
+    {
+      "id": "IND_BUDDH_001",
+      "unit_id": "UNIT_01",
+      "tradition": "Indian",
+      "school": "Madhyamaka Buddhism",
+      "topic": "Metaphysics: Interdependent Origination & Emptiness",
+      "concept_name": "Pratītyasamutpāda and Nāgārjuna's Mūlamadhyamaka Śūnyatā",
+      "the_problem": "If all phenomena arise dependently upon causes and conditions, can any entity possess independent, inherent essence (svabhāva)? Does emptiness imply nihilism, or is it the sole basis for meaningful change?",
+      "technical_lexicon": [
+        {"term": "Pratītyasamutpāda (प्रतीत्यसमुत्पाद)", "meaning": "Dependent co-arising: nothing arises unconditionally or in isolation."},
+        {"term": "Śūnyatā (शून्यता)", "meaning": "Emptiness; the total absence of self-existent inherent nature (niḥsvabhāvatā) in all dharmas."},
+        {"term": "Svabhāva (स्वभाव)", "meaning": "Inherent, self-sufficient, immutable nature, which Madhyamaka proves to be a conceptual impossibility."},
+        {"term": "Samvṛti-satya vs. Paramārtha-satya (संवृति-सत्य / परमार्थ-सत्य)", "meaning": "Conventional truth (empirical pragmatism) vs. Ultimate truth (direct awareness of emptiness)."}
+      ],
+      "dialectic": {
+        "purvapaksha": "The Sarvāstivādin Abhidharmika and Nyāya realist object: If all things are empty (śūnya), then moral action (karma), the Four Noble Truths, and liberation (nirvāṇa) become illusions. Emptiness destroys the Dhamma and leads to nihilism (ucchedavāda).",
+        "siddhanta": "Nāgārjuna in MMK Chapter 24 famously turns the objection on its head: If things had Svabhāva (inherent fixed essence), they could never change, suffer, or achieve awakening! A seed could never become a sprout. It is precisely BECAUSE everything is empty of fixed essence that causal transformation, moral cultivation, and liberation are possible: 'Yah pratītyasamutpādaḥ śūnyatāṃ tāṃ pracakṣmahe'."
+      },
+      "primary_text": {
+        "author": "Nāgārjuna",
+        "work": "Mūlamadhyamakakārikā (MMK)",
+        "passage": "Chapter 24 (Āryasatya-parīkṣā), verses 18–19."
+      },
+      "interview_trap": "Interviewers frequently test if candidates equate Śūnyatā with nothingness (abhāva). Nāgārjuna explicitly warns: 'Śūnyatā is the relinquishing of all philosophical views (dṛṣṭi-sarva-prahāṇa). Those who make a dogma out of emptiness are incurable (asādhya), like a patient whom medicine itself poisons!'",
+      "wisdom_gist": "To be empty is not to be nothing; it is to be open to everything. When we surrender our obsession with rigid, permanent identities, we discover that life's interdependency is not a limitation, but the very ground of freedom and compassion."
+    },
+    {
+      "id": "WEST_PHENOM_001",
+      "unit_id": "UNIT_04",
+      "tradition": "Western",
+      "school": "Phenomenology / Fundamental Ontology",
+      "topic": "Ontology: The Question of Being",
+      "concept_name": "Heidegger's Dasein, Being-in-the-world & Being-towards-death",
+      "the_problem": "How has Western metaphysics forgotten the fundamental question of Being (Seinsvergessenheit), reducing reality to present-at-hand objects, and how does the human entity (Dasein) uncover its authentic temporal existence?",
+      "technical_lexicon": [
+        {"term": "Dasein (Being-there)", "meaning": "The unique entity for whom its very Being is an issue; human existence characterized by disclosure and care."},
+        {"term": "In-der-Welt-sein (Being-in-the-world)", "meaning": "The primordial holistic engagement with equipment and context prior to subject-object separation."},
+        {"term": "Zuhandenheit (Ready-to-hand) vs. Vorhandenheit (Present-at-hand)", "meaning": "The practical familiarity of tools in use vs. the theoretical, detached observation of bare objects."},
+        {"term": "Sein-zum-Tode (Being-towards-death)", "meaning": "The authentic confrontation with one's non-relational, unavoidable finitude that shatters everyday conformism (das Man)."}
+      ],
+      "dialectic": {
+        "purvapaksha": "The Cartesian tradition posited a detached thinking subject (res cogitans) observing an external spatial reality of inert physical substances (res extensa).",
+        "siddhanta": "Heidegger demonstrates in Being and Time (1927) that we do not encounter the world primarily through detached theoretical contemplation. Our primordial mode of Being is practical absorption (care / Sorge) in a network of significance (the workshop hammer). Detached Cartesian subject-object dualism is a derivative, impoverished abstraction that occurs only when the hammer breaks."
+      },
+      "primary_text": {
+        "author": "Martin Heidegger",
+        "work": "Being and Time (Sein und Zeit)",
+        "passage": "Division I (§§ 14–18 on Worldhood and Readiness-to-hand) and Division II (§§ 46–53 on Death and Authenticity)."
+      },
+      "interview_trap": "Distinguish Husserl's phenomenology from Heidegger's: Husserl seeks a transcendental, presuppositionless consciousness via the Epoché (bracketing the world); Heidegger argues that consciousness cannot step outside Being-in-the-world; Dasein is always already 'thrown' (Geworfenheit) into a historical, linguistic context (hermeneutic phenomenology).",
+      "wisdom_gist": "We do not reside inside our minds peering out through glass windows at a foreign universe. We are fundamentally woven into the world. To live authentically is to own our finitude and make conscious choices before time runs out."
+    },
+    {
+      "id": "IND_CONTEMP_001",
+      "unit_id": "UNIT_05",
+      "tradition": "Indian",
+      "school": "Contemporary Indian Philosophy",
+      "topic": "Metaphysics & Spiritual Evolution",
+      "concept_name": "Sri Aurobindo's Involution-Evolution & The Supermind",
+      "the_problem": "Can spiritual liberation be reconciled with cosmic evolution, overcoming both the ascetic illusionism of Māyāvāda and the mechanical materialism of Western Darwinism?",
+      "technical_lexicon": [
+        {"term": "Involution (Nimajjana)", "meaning": "The prior descent of the Absolute Spirit (Saccidānanda) into the density of Matter, making subsequent upward evolution possible."},
+        {"term": "Evolution (Urdhvagati)", "meaning": "The progressive ascent of consciousness from Matter to Life, to Mind, and ultimately to the Supramental Gnosis."},
+        {"term": "Supermind (Vijñāna)", "meaning": "The intermediary divine gnosis, the truth-consciousness that links the transcendent Saccidānanda with the manifested cosmos."},
+        {"term": "Integral Yoga (Pūrṇa Yoga)", "meaning": "Yoga aimed not at escaping the world into Nirvāṇa, but at transforming earthly nature and divinizing life."}
+      ],
+      "dialectic": {
+        "purvapaksha": "Śaṅkarite Advaita claims the world is an unreal illusion (Māyā), and liberation requires renunciation of terrestrial embodiment. Conversely, Western materialist evolution views life and mind as accidental epiphenomena of inert physical particles.",
+        "siddhanta": "Sri Aurobindo asserts: 'Evolution is an inverse action of the involution.' Life cannot evolve out of matter unless it was already involved within it; mind cannot evolve from life unless already hidden therein. The world is not a mistake or dream, but the real manifestation and delightful play (Līlā) of the Spirit ascending toward Supramental transformation."
+      },
+      "primary_text": {
+        "author": "Sri Aurobindo",
+        "work": "The Life Divine",
+        "passage": "Volume I, Book I, Chapters 1–4 ('The Human Aspiration', 'The Two Negations') and Chapter 14 ('The Supermind as Creator')."
+      },
+      "interview_trap": "In university interviews, candidates are often asked to distinguish Aurobindo's evolution from Bergson's 'Élan Vital' and Darwinian natural selection: Darwin is mechanistic and non-teleological; Bergson posits an open-ended creative impulse without a predetermined divine summit; Aurobindo's evolution is teleological and spiritual, grounded in the necessary descent (involution) of Saccidānanda.",
+      "wisdom_gist": "Our present human intellect is not the final evolutionary crown of the universe, but an intermediate transitional instrument. The quest for higher consciousness is the universe remembering its divine origin through us."
+    },
+    {
+      "id": "IND_CONTEMP_002",
+      "unit_id": "UNIT_05",
+      "tradition": "Indian",
+      "school": "Contemporary Indian Philosophy",
+      "topic": "Social-Political Philosophy & Moral Epistemology",
+      "concept_name": "Dr. B. R. Ambedkar's Philosophy of Emancipation: Navayāna & Reconstruction of Religion",
+      "the_problem": "Can religion remain a valid ethical framework if it enshrines graded inequality, and how does the rational reconstruction of Dhamma establish human dignity, liberty, equality, and fraternity?",
+      "technical_lexicon": [
+        {"term": "Navayāna (नयान)", "meaning": "The 'New Vehicle' of Buddhism articulated by Ambedkar, purging supernaturalism and caste hierarchy to foreground social justice and human emancipation."},
+        {"term": "Graded Inequality (विभाजित असमानता)", "meaning": "Ambedkar's sociological-philosophical concept where caste is not merely an inequality of division, but an ascending scale of reverence and descending scale of contempt."},
+        {"term": "Dhamma vs. Dharma", "meaning": "Dhamma is social morality and universal compassion (karuṇā/maitrī), whereas traditional Brahmanical Dharma is ritualistic law enforcing inequality."},
+        {"term": "Constitutional Morality", "meaning": "A paramount commitment to democratic values, secular citizenship, and constitutional methods over revolutionary or sectarian violence."}
+      ],
+      "dialectic": {
+        "purvapaksha": "Orthodox traditionalists and status-quo moralists argued that caste hierarchy was ordained by divine revelation (Varna-dharma in Ṛgveda 10.90 / Puruṣa Sūkta) or past karmic retributive justice.",
+        "siddhanta": "Ambedkar in Annihilation of Caste and The Buddha and His Dhamma argued that any religion which denies liberty, equality, and fraternity is not true religion but rules of enslavement. He reconstituted religion on rationalist, humanist, and ethical foundations: 'Caste is not just a division of labour; it is a division of labourers.' True Dhamma is love and justice among living human beings on this earth."
+      },
+      "primary_text": {
+        "author": "Dr. B. R. Ambedkar",
+        "work": "The Buddha and His Dhamma (1957) & Annihilation of Caste (1936)",
+        "passage": "The Buddha and His Dhamma, Book II, Part II ('Dhamma is Morality'); Annihilation of Caste, Sections 14–20."
+      },
+      "interview_trap": "Central University boards frequently ask: 'What was Ambedkar's critique of the Buddhist Four Noble Truths?' Ambedkar rejected the pessimistic interpretation of the First Noble Truth (Sarvaṃ Duḥkham) as cosmic inevitability; he insisted that human-inflicted socio-economic suffering must be distinguished from existential sorrow, and that the Sangha was intended as a democratic commune without caste.",
+      "wisdom_gist": "Philosophy cannot remain confined to ivory tower metaphysics while human beings are stripped of dignity. The measure of any philosophical system is its capacity to dismantle cruelty and cultivate fraternity in society."
+    }
+  ]
+}

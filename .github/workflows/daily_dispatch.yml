@@ -1,0 +1,59 @@
+name: Philosophy Gist Daily Academic Dispatch
+
+on:
+  schedule:
+    # Runs daily at 01:00 UTC (06:30 AM IST)
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Run in dry-run mode (generates archive without sending email)'
+        required: false
+        default: 'false'
+        type: boolean
+      recipient:
+        description: 'Recipient Email Address'
+        required: false
+        default: 'anshukumar64149@gmail.com'
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  dispatch-newsletter:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 🔍 Run Academic Verification & Dispatch Edition
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER || 'anshu.philosophy@gmail.com' }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          RECIPIENT_EMAIL: ${{ inputs.recipient || secrets.RECIPIENT_EMAIL || 'anshukumar64149@gmail.com' }}
+        run: |
+          FLAGS=""
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            FLAGS="--dry-run"
+          fi
+          python run_dispatch.py $FLAGS --recipient "${{ inputs.recipient || secrets.RECIPIENT_EMAIL || 'anshukumar64149@gmail.com' }}"
+
+      - name: 💾 Commit & Push Dispatched Archive & Logs
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add archive/ content/cache/
+          git diff --staged --quiet || (git commit -m "Auto-archive: Dispatched Philosophy Gist Edition [skip ci]" && git push)

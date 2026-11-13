@@ -1,0 +1,24 @@
+[
+  {
+    "issue_number": "001",
+    "title": "The Architecture of Epistemic Trust & Transcendental Cognition",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #001: The Architecture of Epistemic Trust & Transcendental Cognition",
+    "dry_run": true,
+    "status": "dry_run_success",
+    "message": "DRY-RUN completed successfully.",
+    "timestamp": "2026-11-13T20:43:11.706623"
+  },
+  {
+    "issue_number": "002",
+    "title": "The Metaphysics of Causality: Latency, Emergence & Skeptical Custom",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #002: The Metaphysics of Causality: Latency, Emergence & Skeptical Custom",
+    "dry_run": true,
+    "status": "dry_run_success",
+    "message": "DRY-RUN completed successfully.",
+    "timestamp": "2026-11-13T20:43:42.673418"
+  }
+]
