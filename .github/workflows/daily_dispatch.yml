@@ -1,13 +1,28 @@
-name: Philosophy Gist Daily Academic Dispatch
+name: Philosophy Gist Scheduled Flashcards (5 AM & 5 PM IST)
 
 on:
   schedule:
-    # Runs daily at 01:00 UTC (06:30 AM IST)
-    - cron: '0 1 * * *'
+    # 5:00 AM IST is 23:30 UTC (previous day)
+    # 5:00 PM IST is 11:30 UTC
+    - cron: '30 11,23 * * *'
   workflow_dispatch:
     inputs:
+      session:
+        description: 'Session to dispatch: morning_5am, evening_5pm, or auto'
+        required: false
+        default: 'auto'
+        type: choice
+        options:
+          - auto
+          - morning_5am
+          - evening_5pm
+      count:
+        description: 'Number of unique flashcard emails to send in this batch'
+        required: false
+        default: '4'
+        type: string
       dry_run:
-        description: 'Run in dry-run mode (generates archive without sending email)'
+        description: 'Run in dry-run mode (renders archives without sending emails)'
         required: false
         default: 'false'
         type: boolean
@@ -21,7 +36,7 @@ permissions:
   contents: write
 
 jobs:
-  dispatch-newsletter:
+  dispatch-flashcards:
     runs-on: ubuntu-latest
 
     steps:
@@ -39,7 +54,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: 🔍 Run Academic Verification & Dispatch Edition
+      - name: 🔍 Run Academic Verification & Dispatch Flashcards
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER || 'anshu.philosophy@gmail.com' }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
@@ -49,11 +64,13 @@ jobs:
           if [ "${{ inputs.dry_run }}" = "true" ]; then
             FLAGS="--dry-run"
           fi
-          python run_dispatch.py $FLAGS --recipient "${{ inputs.recipient || secrets.RECIPIENT_EMAIL || 'anshukumar64149@gmail.com' }}"
+          SESSION_ARG="${{ inputs.session || 'auto' }}"
+          COUNT_ARG="${{ inputs.count || '4' }}"
+          python run_dispatch.py --session "$SESSION_ARG" --count "$COUNT_ARG" $FLAGS --recipient "${{ inputs.recipient || secrets.RECIPIENT_EMAIL || 'anshukumar64149@gmail.com' }}"
 
-      - name: 💾 Commit & Push Dispatched Archive & Logs
+      - name: 💾 Commit & Push Sent State & Archives
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add archive/
-          git diff --staged --quiet || (git commit -m "Auto-archive: Dispatched Philosophy Gist Edition [skip ci]" && git push)
+          git add archive/ content/
+          git diff --staged --quiet || (git commit -m "Auto-state: Persist 4-flashcard dispatch and sent history [skip ci]" && git push)

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anumāna: The Pañcāvayava Syllogism &amp; Vyāpti | Philosophy Flash</title>
+  <style>
+    body, p, h1, h2, h3, h4, ul, ol, li, blockquote { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background-color: #0B0F17;
+      color: #E2E8F0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      padding: 20px 10px;
+    }
+    .card-container {
+      max-width: 620px;
+      margin: 0 auto;
+      background-color: #111827;
+      border: 1px solid #1F2937;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
+    }
+    /* Top Session Bar */
+    .session-bar {
+      background-color: #030712;
+      padding: 10px 20px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #38BDF8;
+      border-bottom: 1px solid #1F2937;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .session-badge {
+      background-color: #1E293B;
+      color: #F8FAFC;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-size: 10.5px;
+      border: 1px solid #334155;
+    }
+
+    /* Chain Ribbon */
+    .chain-container {
+      background: linear-gradient(135deg, #0F172A 0%, #1E1B4B 100%);
+      padding: 18px 22px;
+      border-bottom: 2px solid #3B82F6;
+    }
+    .chain-title {
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #93C5FD;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+    }
+    .chain-step {
+      font-size: 13px;
+      line-height: 1.45;
+      margin-bottom: 8px;
+      color: #CBD5E1;
+    }
+    .chain-step strong {
+      color: #FFFFFF;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      display: inline-block;
+      min-width: 80px;
+    }
+    .step-current {
+      color: #FDE047;
+      font-weight: 600;
+    }
+
+    /* Main Card Content */
+    .card-body {
+      padding: 24px 22px;
+    }
+    .tradition-tag {
+      display: inline-block;
+      font-size: 10.5px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 3px 8px;
+      border-radius: 4px;
+      margin-bottom: 8px;
+    }
+    .tag-indian {
+      background-color: #451A03;
+      color: #FDBA74;
+      border: 1px solid #9A3412;
+    }
+    .tag-western {
+      background-color: #082F49;
+      color: #7DD3FC;
+      border: 1px solid #0369A1;
+    }
+    .card-title {
+      font-family: "Charter", "Bitstream Charter", "Georgia", serif;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 1.25;
+      color: #F8FAFC;
+      margin-bottom: 6px;
+    }
+    .card-school {
+      font-size: 13px;
+      color: #94A3B8;
+      margin-bottom: 18px;
+    }
+
+    /* Core Dilemma */
+    .dilemma-box {
+      background-color: #1E293B;
+      border-left: 4px solid #38BDF8;
+      padding: 14px 16px;
+      border-radius: 0 8px 8px 0;
+      font-size: 14.5px;
+      font-style: italic;
+      color: #F1F5F9;
+      margin-bottom: 22px;
+      line-height: 1.5;
+    }
+
+    /* Section Headers */
+    .sec-heading {
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #94A3B8;
+      margin-top: 20px;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+    }
+
+    /* Lexicon */
+    .lexicon-group {
+      background-color: #030712;
+      border: 1px solid #1F2937;
+      border-radius: 8px;
+      padding: 12px 14px;
+      margin-bottom: 20px;
+    }
+    .lexicon-row {
+      font-size: 13px;
+      margin-bottom: 8px;
+      color: #CBD5E1;
+    }
+    .lexicon-row:last-child { margin-bottom: 0; }
+    .term-pill {
+      font-family: ui-monospace, "SFMono-Regular", Menlo, Monaco, Consolas, monospace;
+      font-size: 12px;
+      font-weight: 700;
+      color: #67E8F9;
+      background-color: #083344;
+      padding: 2px 7px;
+      border-radius: 4px;
+      border: 1px solid #155E75;
+      margin-right: 6px;
+    }
+
+    /* Dialectic Split */
+    .dialectic-wrapper {
+      margin-bottom: 22px;
+    }
+    .dialectic-block {
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin-bottom: 10px;
+      font-size: 13.5px;
+      line-height: 1.55;
+    }
+    .purvapaksha-block {
+      background-color: #1C1917;
+      border-left: 4px solid #EF4444;
+      color: #FCA5A5;
+    }
+    .siddhanta-block {
+      background-color: #064E3B;
+      background: linear-gradient(180deg, #064E3B 0%, #022C22 100%);
+      border-left: 4px solid #10B981;
+      color: #A7F3D0;
+    }
+    .block-header {
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .purvapaksha-block .block-header { color: #F87171; }
+    .siddhanta-block .block-header { color: #34D399; }
+
+    /* Primary Source Box */
+    .locus-box {
+      background-color: #0F172A;
+      border: 1px dashed #334155;
+      border-radius: 6px;
+      padding: 10px 14px;
+      font-size: 12.5px;
+      color: #94A3B8;
+      margin-bottom: 20px;
+    }
+    .locus-box strong { color: #E2E8F0; }
+
+    /* Interview Trap Box */
+    .trap-card {
+      background-color: #422006;
+      border: 1px solid #B45309;
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin-bottom: 20px;
+      font-size: 13.5px;
+      color: #FED7AA;
+      line-height: 1.5;
+    }
+    .trap-title {
+      font-size: 11.5px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #FDBA74;
+      margin-bottom: 6px;
+    }
+
+    /* Wisdom Gist */
+    .wisdom-card {
+      background-color: #1E1B4B;
+      border-left: 4px solid #818CF8;
+      border-radius: 0 8px 8px 0;
+      padding: 14px 18px;
+      font-family: "Charter", "Georgia", serif;
+      font-style: italic;
+      font-size: 15px;
+      color: #C7D2FE;
+      line-height: 1.6;
+      margin-bottom: 12px;
+    }
+
+    /* Footer */
+    .card-footer {
+      background-color: #030712;
+      padding: 16px 20px;
+      border-top: 1px solid #1F2937;
+      text-align: center;
+      font-size: 11.5px;
+      color: #64748B;
+    }
+    .card-footer a { color: #38BDF8; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="card-container">
+    <!-- Top Session Bar -->
+    <div class="session-bar">
+      <span>🌙 5:00 PM EVENING FLASH &bull; FLASH 1 OF 4</span>
+      <span class="session-badge">UNIT_01</span>
+    </div>
+
+    <!-- Dialectical Chain Ribbon -->
+    <div class="chain-container">
+      <div class="chain-title">&#128279; CONCEPTUAL CHAIN (DIALECTICAL LINEAGE)</div>
+      <div class="chain-step">
+        <strong>1. Origin:</strong> Pratyakṣa (Perception is limited to present objects)
+      </div>
+      <div class="chain-step">
+        <strong>2. Core Pivot:</strong> <span class="step-current">Inference extends knowledge to unperceived realms through an unbroken invariant relation (Vyāpti) formulated in a five-membered syllogism.</span>
+      </div>
+      <div class="chain-step">
+        <strong>3. Horizon:</strong> Hetvābhāsa (The fallacies that rupture Vyāpti and corrupt inference)
+      </div>
+    </div>
+
+    <!-- Card Body -->
+    <div class="card-body">
+      <span class="tradition-tag tag-indian">
+        Indian Philosophy &bull; Nyāya
+      </span>
+
+      <h1 class="card-title">Anumāna: The Pañcāvayava Syllogism &amp; Vyāpti</h1>
+      <div class="card-school">Topic: Inference &amp; Epistemic Induction</div>
+
+      <!-- Dilemma -->
+      <div class="sec-heading">The Fundamental Dilemma</div>
+      <div class="dilemma-box">
+        "How can the mind legitimately cross the gap between what is currently perceived (smoke on a mountain) and what is hidden from view (fire inside the mountain)?"
+      </div>
+
+      <!-- Lexicon -->
+      <div class="sec-heading">Canonical Vocabulary (Precision Lexicon)</div>
+      <div class="lexicon-group">
+        
+        <div class="lexicon-row">
+          <span class="term-pill">Vyāpti (व्याप्ति)</span> &mdash; Invariable, unconditional relation of concomitance between the sign (hetu/smoke) and the signified (sādhya/fire).
+        </div>
+        
+        <div class="lexicon-row">
+          <span class="term-pill">Pañcāvayava (पञ्चावयव)</span> &mdash; The 5 members of demonstration: Pratijñā (thesis), Hetu (reason), Udāharaṇa (universal exemplification), Upanaya (application), Nigamana (conclusion).
+        </div>
+        
+        <div class="lexicon-row">
+          <span class="term-pill">Upādhi (उपाधि)</span> &mdash; An extraneous condition that renders a concomitance conditional (e.g., &#39;wet fuel&#39; is the upādhi for smoke from fire).
+        </div>
+        
+        <div class="lexicon-row">
+          <span class="term-pill">Parāmarśa (परामर्श)</span> &mdash; The synthetic cognitive act: realization that the mountain possesses smoke which is invariably accompanied by fire.
+        </div>
+        
+      </div>
+
+      <!-- The Dialectic -->
+      <div class="sec-heading">The Dialectic: Objection &amp; Resolution</div>
+      <div class="dialectic-wrapper">
+        <div class="dialectic-block purvapaksha-block">
+          <div class="block-header">Pūrvapakṣa (The Opponent's Challenge)</div>
+          Cārvāka challenges: How do you know Vyāpti holds universally? You have seen fire with smoke in a kitchen, but have you seen every fire in all past, present, and future universes? If you infer it, you presuppose inference; induction is logically circular.
+        </div>
+        <div class="dialectic-block siddhanta-block">
+          <div class="block-header">Siddhānta (Philosophical Defense)</div>
+          Nyāya solves the Indian problem of induction through &#39;Sāmānyalakṣaṇa-pratyakṣa&#39; (perceiving smokiness as a universal in all smoke) combined with &#39;Tarka&#39; (reductio ad absurdum: &#39;If smoke could occur without fire, why does no one look for smoke in a lake?&#39;).
+        </div>
+      </div>
+
+      <!-- Locus -->
+      <div class="sec-heading">Primary Textual Locus</div>
+      <div class="locus-box">
+        <strong>Author:</strong> Vātsyāyana &amp; Uddyotakāra &bull;
+        <strong>Work:</strong> <em>Nyāyabhāṣya &amp; Nyāyavārttika</em> &bull;
+        <strong>Locus:</strong> Nyāyasūtra 1.1.5; Tarkasaṃgraha §§ 36–48
+      </div>
+
+      <!-- Selection Committee Pitfall -->
+      <div class="sec-heading">Selection Committee &amp; UGC NET Trap</div>
+      <div class="trap-card">
+        <div class="trap-title">&#9888; Interview Trap Question</div>
+        Compare the Nyāya 5-membered syllogism with Aristotle&#39;s 3-membered syllogism: Aristotle&#39;s syllogism is purely deductive and formal; the Nyāya pañcāvayava is BOTH inductive and deductive, requiring an empirical example (Udāharaṇa) from the world.
+      </div>
+
+      <!-- Wisdom Gist -->
+      <div class="sec-heading">Wisdom Gist</div>
+      <div class="wisdom-card">
+        "Inference is the bridge between the finite senses and the infinite world. Reason does not float in formal abstraction; it remains anchored to lived empirical observation."
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="card-footer">
+      <strong>Philosophy Gist</strong> &bull; Central University Assistant Professor &amp; UGC NET Preparation.<br>
+      Delivered directly to <strong>anshukumar64149@gmail.com</strong> on scheduled frequency.
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+{
+  "sent_card_ids": [
+    "IND_EPIST_001",
+    "IND_EPIST_002",
+    "WEST_MOD_001",
+    "WEST_MOD_004"
+  ],
+  "history": [
+    {
+      "timestamp": "2026-11-13T21:23:09.756463",
+      "session": "morning_5am",
+      "cards_sent": [
+        "IND_EPIST_001",
+        "IND_EPIST_002",
+        "WEST_MOD_001",
+        "WEST_MOD_004"
+      ],
+      "dry_run": true,
+      "success_count": 4
+    },
+    {
+      "timestamp": "2026-11-13T21:24:54.999037",
+      "session": "morning_5am",
+      "cards_sent": [
+        "IND_EPIST_001",
+        "IND_EPIST_002",
+        "WEST_MOD_001",
+        "WEST_MOD_004"
+      ],
+      "dry_run": false,
+      "success_count": 4
+    },
+    {
+      "timestamp": "2026-11-13T21:25:02.802427",
+      "session": "evening_5pm",
+      "cards_sent": [
+        "IND_LOGIC_001",
+        "IND_LOGIC_002",
+        "WEST_MOD_005",
+        "WEST_META_001"
+      ],
+      "dry_run": true,
+      "success_count": 4
+    }
+  ]
+}

@@ -1,30 +1,64 @@
-# 🏛️ DU Philosophy Gist: Academic Newsletter & Flashcard Engine
-**Autonomous Preparation Server for Central University Assistant Professor & UGC NET / JRF (Philosophy)**
+# 🏛️ DU Philosophy Gist: Academic Flashcard Dispatch Engine
+**Twice-Daily Preparation Server for Central University Assistant Professor & UGC NET / JRF (Philosophy)**
 
-[![Philosophy Gist Daily Academic Dispatch](https://github.com/anshuk-dev/philosophy-gist/actions/workflows/daily_dispatch.yml/badge.svg)](https://github.com/anshuk-dev/philosophy-gist/actions/workflows/daily_dispatch.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Curriculum](https://img.shields.io/badge/Curriculum-UGC%20NET%20%7C%20DU%20Faculty-success.svg)](content/syllabus_mapping.json)
+[![Philosophy Gist Scheduled Flashcards](https://github.com/anshuk-dev/philosophy-gist/actions/workflows/daily_dispatch.yml/badge.svg)](https://github.com/anshuk-dev/philosophy-gist/actions/workflows/daily_dispatch.yml)
+[![Schedule](https://img.shields.io/badge/Schedule-5%3A00%20AM%20%26%205%3A00%20PM%20IST-blueviolet.svg)](#-delivery-schedule)
+[![Volume](https://img.shields.io/badge/Daily%20Volume-8%20Flashcards%20%284%20%2B%204%29-success.svg)](#-delivery-schedule)
+[![Curriculum](https://img.shields.io/badge/Curriculum-UGC%20NET%20%7C%20DU%20Faculty-informational.svg)](content/syllabus_mapping.json)
 
 ---
 
 ## 📖 Overview
 
-**Philosophy Gist** is an automated academic dispatch engine designed to deliver high-yield, authentic philosophical flashcards and dialectical syntheses directly to candidates preparing for **Assistant Professor interviews in Central Universities** (University of Delhi, JNU, BHU, University of Hyderabad) and **UGC NET / JRF Philosophy (Subject Code 03)**.
+**Philosophy Gist** is an autonomous academic dispatch server designed for candidates preparing for **Assistant Professor appointments in Central Universities** (University of Delhi, JNU, BHU, University of Hyderabad) and **UGC NET / JRF Philosophy (Subject Code 03)**.
 
-Each edition is carefully curated, authenticated against canonical primary texts, rendered in a minimalist GitHub-inspired layout, and automatically emailed to **anshukumar64149@gmail.com** on schedule.
+Every day, the system delivers **8 unique, non-repeating concept flashcards** divided into two dedicated reading sessions:
+- **☀️ Morning Session (05:00 AM IST)**: 4 distinct flashcard emails
+- **🌙 Evening Session (05:00 PM IST)**: 4 distinct flashcard emails
+
+Every email is delivered as its own individual, bite-sized flashcard formatted in an ultra-focused, high-contrast layout, complete with an **unbroken conceptual chain** showing the dialectical evolution of ideas.
 
 ---
 
-## ⚡ The 6-Dimension Flashcard Grasp
+## 🔗 Chained Concepts: From Origin to Horizon
 
-Unlike shallow summaries or robotic bullet points, every concept is presented with academic depth:
+No philosophical concept exists in a vacuum. Every flashcard is explicitly anchored in its dialectical lineage:
 
-1. **The Core Dilemma (The Problem)**: The fundamental philosophical knot the thinker seeks to untangle.
-2. **Technical Lexicon & Vocabulary**: Precise Sanskrit, Greek, or German terms with exact diacritics and semantic scope.
-3. **The Dialectic (Pūrvapakṣa vs. Siddhānta)**: The opponent's challenge juxtaposed against the philosophical defense.
-4. **Primary Canonical Citation**: Exact root texts (*sūtra*, *bhāṣya*, or published treatise with locus).
-5. **⚠️ Central University Interview Trap**: Sub-school nuances and tricky distinctions frequently tested by selection panels.
-6. **Wisdom Gist**: The existential and contemplative resonance of the idea for human life.
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│ 🔗 CONCEPTUAL CHAIN (DIALECTICAL LINEAGE)                              │
+│ 1. Origin / Prior Knot:  Cārvāka Skepticism (Doubt of unperceived)     │
+│ 2. Core Pivot (Current): Cognition carries intrinsic validity (Svataḥ) │
+│ 3. Next Horizon:         Theories of Illusion (Khyātivāda)             │
+└────────────────────────────────────────────────────────────────────────┘
+```
+
+This continuous chaining trains candidates to answer complex viva-voce and interview panel questions that trace the historical development of thought from one school to another.
+
+---
+
+## ⚡ The 6-Dimension High-Focus Flashcard Layout
+
+Every flashcard cuts through empty jargon to present the concentrated essence:
+
+1. **The Fundamental Dilemma**: The core epistemological or metaphysical tension stated in 1 crisp sentence.
+2. **Canonical Vocabulary (Precision Lexicon)**: Sanskrit (with IAST diacritics), Greek, and German terms with their authentic philosophical scope.
+3. **The Dialectic**: A sharp juxtaposition between **Pūrvapakṣa** (the opponent's strongest objection) and **Siddhānta** (the definitive philosophical defense).
+4. **Primary Textual Locus**: Direct citation of root texts (*sūtra*, *bhāṣya*, or published treatise with chapter/verse).
+5. **⚠️ Central University Interview Trap**: Subtle distinction, sub-school variance, or common pitfall where selection committees test deep mastery versus superficial memorization.
+6. **Wisdom Gist**: The existential, contemplative truth connecting ancient rigor to human consciousness.
+
+---
+
+## ⏰ Delivery Schedule & Zero-Repetition Engine
+
+| Session | Time (IST) | Time (UTC) | Volume | Content Balance |
+|---|---|---|---|---|
+| **Morning Briefing** | **05:00 AM** | 23:30 (prev. day) | 4 Separate Emails | 2 Indian + 2 Western (Chained) |
+| **Evening Briefing** | **05:00 PM** | 11:30 | 4 Separate Emails | 2 Indian + 2 Western (Chained) |
+
+### Zero-Repetition State Tracking:
+All delivered card IDs are recorded in [`archive/sent_history.json`](archive/sent_history.json). The engine verifies that **no concept is ever repeated** until the entire curriculum database has been completely traversed.
 
 ---
 
@@ -34,83 +68,53 @@ Unlike shallow summaries or robotic bullet points, every concept is presented wi
 Philosophy Gist/
 ├── .github/
 │   └── workflows/
-│       └── daily_dispatch.yml      # Autonomous GitHub Actions server (Daily 6:30 AM IST)
+│       └── daily_dispatch.yml       # Scheduled server (5 AM & 5 PM IST)
 ├── content/
-│   ├── database.json               # Curated & verified curriculum flashcard database
-│   ├── syllabus_mapping.json       # 6 Units of UGC NET / CU syllabus
-│   └── cache/                      # Scraped & cached SEP / IEP articles
+│   ├── database.json                # Curated & verified curriculum flashcard database
+│   ├── syllabus_mapping.json        # 6 Units of UGC NET / CU syllabus
+│   └── cache/                       # Cached articles and references
 ├── src/
-│   ├── scraper.py                  # Scraper for SEP, IEP, and local notes
-│   ├── verifier.py                 # 6-dimension academic validation engine
-│   ├── generator.py                # Compiles HTML newsletter & Markdown archive
-│   └── mailer.py                   # SMTP mailer with dry-run & delivery logs
+│   ├── session_dispatcher.py        # 4-mail morning & evening session engine
+│   ├── verifier.py                  # 6-dimension academic validation engine
+│   ├── generator.py                 # Markdown & HTML issue compiler
+│   ├── mailer.py                    # SMTP delivery engine with rate-limit pacing
+│   └── scraper.py                   # SEP / IEP scraper & local notes search
 ├── templates/
-│   └── newsletter.html             # Minimalist, GitHub-grade responsive HTML email
+│   ├── single_flashcard_email.html  # High-focus, distraction-free flashcard layout
+│   └── newsletter.html              # Combined digest template
 ├── archive/
-│   ├── markdown/                   # Standalone Markdown editions
-│   ├── html/                       # Standalone browsable HTML editions
-│   └── dispatch_log.json           # Execution and delivery records
-├── run_dispatch.py                 # Primary CLI runner & automation entrypoint
-├── ROADMAP.md                      # 120-Day systematic curriculum progression
-└── requirements.txt                # Python dependencies
+│   ├── sent_history.json            # Persistent tracking ensuring zero repetition
+│   ├── html/                        # HTML archive of every dispatched flashcard
+│   └── markdown/                    # Plain text / Markdown archive
+├── run_dispatch.py                  # Primary entrypoint script
+├── ROADMAP.md                       # 120-Day systematic curriculum progression
+└── requirements.txt                 # Dependencies
 ```
 
 ---
 
-## 🛠️ Local Usage & Testing
+## 🛠️ CLI Commands & Testing
 
-### 1. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 2. Verify Academic Integrity of Database
+### 1. Verify Database Academic Integrity
 ```bash
 python run_dispatch.py --verify-only
 ```
 
-### 3. Generate Dry-Run Preview (Without Sending Email)
+### 2. Test 4-Card Dispatch in Dry-Run Mode
 ```bash
-python run_dispatch.py --dry-run
-```
-This generates the standalone HTML in `archive/html/issue_XXX.html` and Markdown in `archive/markdown/issue_XXX.md`.
+# Preview 5 AM Morning Session (4 emails)
+python run_dispatch.py --session morning_5am --dry-run
 
-### 4. Send Live Email (Local Execution)
-Set your environment variables (or place them in a `.env` file):
-```bash
-export GMAIL_USER="anshu.philosophy@gmail.com"
-export GMAIL_APP_PASSWORD="your-16-char-app-password"
-export RECIPIENT_EMAIL="anshukumar64149@gmail.com"
-
-python run_dispatch.py
+# Preview 5 PM Evening Session (4 emails)
+python run_dispatch.py --session evening_5pm --dry-run
 ```
 
----
+### 3. Dispatch Live 4-Card Session Locally
+```bash
+python run_dispatch.py --session morning_5am
+```
 
-## 🤖 GitHub Actions Automated Server
-
-The repository runs completely autonomously via GitHub Actions:
-- **Schedule**: Executes daily at `01:00 UTC` (**06:30 AM IST**).
-- **Manual Trigger**: Can be dispatched on-demand via the GitHub Actions tab (`workflow_dispatch`).
-- **Auto-Archiving**: Every dispatched edition is committed and pushed back into `archive/` automatically.
-
-### Required GitHub Secrets:
-To enable automated sending from your GitHub repository:
-1. Go to **Settings > Secrets and variables > Actions**.
-2. Add the following repository secrets:
-   - `GMAIL_USER`: `anshu.philosophy@gmail.com`
-   - `GMAIL_APP_PASSWORD`: Your 16-character Google App Password ([How to generate](https://myaccount.google.com/apppasswords))
-   - `RECIPIENT_EMAIL`: `anshukumar64149@gmail.com`
-
----
-
-## 🗺️ Syllabus Coverage
-
-- **Unit 01**: Classical Indian Philosophy (Astika & Nastika traditions)
-- **Unit 02**: Classical Western Philosophy (Pre-Socratics, Plato, Aristotle, Medieval)
-- **Unit 03**: Modern Western Philosophy (Rationalism, Empiricism, Kant, Hegel)
-- **Unit 04**: Contemporary Western Philosophy (Phenomenology, Existentialism, Analytic, Positivism)
-- **Unit 05**: Contemporary Indian Philosophy (Aurobindo, Ambedkar, Gandhi, Vivekananda, Radhakrishnan)
-- **Unit 06**: Epistemology, Logic & Ethics (Pramāṇas, Khyātivāda, Hetvābhāsa, Normative Ethics)
-
-See [ROADMAP.md](ROADMAP.md) for the complete 120-day daily breakdown.
+### 4. Trigger via GitHub Actions Cloud Runner
+```bash
+gh workflow run daily_dispatch.yml -f session=morning_5am -f count=4
+```

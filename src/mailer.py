@@ -46,9 +46,10 @@ class PhilosophyMailer:
     """Delivers verified academic newsletters."""
 
     def __init__(self):
-        self.sender = GMAIL_USER
-        self.recipient = RECIPIENT_EMAIL
-        self.password = GMAIL_APP_PASSWORD
+        self.sender = os.environ.get("GMAIL_USER", GMAIL_USER)
+        self.recipient = os.environ.get("RECIPIENT_EMAIL", RECIPIENT_EMAIL)
+        raw_pw = os.environ.get("GMAIL_APP_PASSWORD", GMAIL_APP_PASSWORD)
+        self.password = raw_pw.replace(" ", "").strip() if raw_pw else ""
 
     def send_newsletter(
         self,
