@@ -185,5 +185,49 @@
     "status": "dry_run_success",
     "message": "DRY-RUN completed successfully.",
     "timestamp": "2026-11-13T21:25:02.802305"
+  },
+  {
+    "issue_number": "5 PM-20261113-1",
+    "title": "Ny\u0101ya: Anum\u0101na: The Pa\u00f1c\u0101vayava Syllogism & Vy\u0101pti",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #5 PM-20261113-1: Ny\u0101ya: Anum\u0101na: The Pa\u00f1c\u0101vayava Syllogism & Vy\u0101pti",
+    "dry_run": true,
+    "status": "dry_run_success",
+    "message": "DRY-RUN completed successfully.",
+    "timestamp": "2026-11-13T15:55:32.559871"
+  },
+  {
+    "issue_number": "5 PM-20261113-2",
+    "title": "Ny\u0101ya: Hetv\u0101bh\u0101sa: The Five Inferential Fallacies",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #5 PM-20261113-2: Ny\u0101ya: Hetv\u0101bh\u0101sa: The Five Inferential Fallacies",
+    "dry_run": true,
+    "status": "dry_run_success",
+    "message": "DRY-RUN completed successfully.",
+    "timestamp": "2026-11-13T15:55:32.560669"
+  },
+  {
+    "issue_number": "5 PM-20261113-3",
+    "title": "British Empiricism / Idealism: Berkeley's Esse est Percipi & Immaterialism",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #5 PM-20261113-3: British Empiricism / Idealism: Berkeley's Esse est Percipi & Immaterialism",
+    "dry_run": true,
+    "status": "dry_run_success",
+    "message": "DRY-RUN completed successfully.",
+    "timestamp": "2026-11-13T15:55:32.561544"
+  },
+  {
+    "issue_number": "5 PM-20261113-4",
+    "title": "British Empiricism / Skepticism: Hume's Problem of Induction & The Critique of Necessary Connection",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #5 PM-20261113-4: British Empiricism / Skepticism: Hume's Problem of Induction & The Critique of Necessary Connection",
+    "dry_run": true,
+    "status": "dry_run_success",
+    "message": "DRY-RUN completed successfully.",
+    "timestamp": "2026-11-13T15:55:32.562412"
   }
 ]
