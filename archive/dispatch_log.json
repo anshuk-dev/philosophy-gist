@@ -23,13 +23,24 @@
   },
   {
     "issue_number": "003",
-    "title": "Philosophical Dialectics: The Five Classic Khyātivādas (Theory of Illusion) & Frege's Sense & Reference vs. Russell's Theory of Definite Descriptions",
+    "title": "Philosophical Dialectics: The Five Classic Khy\u0101tiv\u0101das (Theory of Illusion) & Frege's Sense & Reference vs. Russell's Theory of Definite Descriptions",
     "sender": "anshu.philosophy@gmail.com",
     "recipient": "anshukumar64149@gmail.com",
-    "subject": "DU Philosophy Gist #003: Philosophical Dialectics: The Five Classic Khyātivādas (Theory of Illusion) & Frege's Sense & Reference vs. Russell's Theory of Definite Descriptions",
+    "subject": "DU Philosophy Gist #003: Philosophical Dialectics: The Five Classic Khy\u0101tiv\u0101das (Theory of Illusion) & Frege's Sense & Reference vs. Russell's Theory of Definite Descriptions",
     "dry_run": true,
     "status": "dry_run_success",
     "message": "Executed and verified via GitHub Actions cloud runner.",
     "timestamp": "2026-11-13T15:16:58.641155"
+  },
+  {
+    "issue_number": "004",
+    "title": "Philosophical Dialectics: Prat\u012btyasamutp\u0101da and N\u0101g\u0101rjuna's M\u016blamadhyamaka \u015a\u016bnyat\u0101 & Heidegger's Dasein, Being-in-the-world & Being-towards-death",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #004: Philosophical Dialectics: Prat\u012btyasamutp\u0101da and N\u0101g\u0101rjuna's M\u016blamadhyamaka \u015a\u016bnyat\u0101 & Heidegger's Dasein, Being-in-the-world & Being-towards-death",
+    "dry_run": false,
+    "status": "sent",
+    "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
+    "timestamp": "2026-11-13T15:38:20.371086"
   }
 ]
