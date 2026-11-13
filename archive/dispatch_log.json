@@ -20,5 +20,16 @@
     "status": "dry_run_success",
     "message": "DRY-RUN completed successfully.",
     "timestamp": "2026-11-13T20:43:42.673418"
+  },
+  {
+    "issue_number": "003",
+    "title": "Philosophical Dialectics: The Five Classic Khy\u0101tiv\u0101das (Theory of Illusion) & Frege's Sense & Reference vs. Russell's Theory of Definite Descriptions",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #003: Philosophical Dialectics: The Five Classic Khy\u0101tiv\u0101das (Theory of Illusion) & Frege's Sense & Reference vs. Russell's Theory of Definite Descriptions",
+    "dry_run": true,
+    "status": "dry_run_success",
+    "message": "DRY-RUN completed successfully.",
+    "timestamp": "2026-11-13T15:16:58.641155"
   }
 ]
