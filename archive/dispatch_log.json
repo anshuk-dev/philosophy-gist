@@ -229,5 +229,49 @@
     "status": "dry_run_success",
     "message": "DRY-RUN completed successfully.",
     "timestamp": "2026-11-13T15:55:32.562412"
+  },
+  {
+    "issue_number": "5 AM-20261114-1",
+    "title": "Ny\u0101ya: Anum\u0101na: The Pa\u00f1c\u0101vayava Syllogism & Vy\u0101pti",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #5 AM-20261114-1: Ny\u0101ya: Anum\u0101na: The Pa\u00f1c\u0101vayava Syllogism & Vy\u0101pti",
+    "dry_run": false,
+    "status": "sent",
+    "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
+    "timestamp": "2026-11-14T03:25:42.031193"
+  },
+  {
+    "issue_number": "5 AM-20261114-2",
+    "title": "Ny\u0101ya: Hetv\u0101bh\u0101sa: The Five Inferential Fallacies",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #5 AM-20261114-2: Ny\u0101ya: Hetv\u0101bh\u0101sa: The Five Inferential Fallacies",
+    "dry_run": false,
+    "status": "sent",
+    "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
+    "timestamp": "2026-11-14T03:25:45.782278"
+  },
+  {
+    "issue_number": "5 AM-20261114-3",
+    "title": "British Empiricism / Idealism: Berkeley's Esse est Percipi & Immaterialism",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #5 AM-20261114-3: British Empiricism / Idealism: Berkeley's Esse est Percipi & Immaterialism",
+    "dry_run": false,
+    "status": "sent",
+    "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
+    "timestamp": "2026-11-14T03:25:49.401521"
+  },
+  {
+    "issue_number": "5 AM-20261114-4",
+    "title": "British Empiricism / Skepticism: Hume's Problem of Induction & The Critique of Necessary Connection",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #5 AM-20261114-4: British Empiricism / Skepticism: Hume's Problem of Induction & The Critique of Necessary Connection",
+    "dry_run": false,
+    "status": "sent",
+    "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
+    "timestamp": "2026-11-14T03:25:53.195371"
   }
 ]
