@@ -15,7 +15,11 @@
     "IND_VEDAN_002",
     "IND_BUDDH_001",
     "WEST_PHENOM_001",
-    "WEST_CONT_002"
+    "WEST_CONT_002",
+    "IND_JAINA_001",
+    "IND_CONTEMP_001",
+    "WEST_ANC_001",
+    "WEST_ANC_002"
   ],
   "history": [
     {
@@ -98,6 +102,18 @@
         "IND_BUDDH_001",
         "WEST_PHENOM_001",
         "WEST_CONT_002"
+      ],
+      "dry_run": false,
+      "success_count": 4
+    },
+    {
+      "timestamp": "2026-11-15T17:54:07.547364",
+      "session": "evening_5pm",
+      "cards_sent": [
+        "IND_JAINA_001",
+        "IND_CONTEMP_001",
+        "WEST_ANC_001",
+        "WEST_ANC_002"
       ],
       "dry_run": false,
       "success_count": 4

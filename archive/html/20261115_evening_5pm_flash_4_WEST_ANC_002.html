@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aristotle: The Four Causes, Hylomorphism &amp; Actuality/Potentiality | Philosophy Flash</title>
+  <style>
+    body, p, h1, h2, h3, h4, ul, ol, li, blockquote { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background-color: #0B0F17;
+      color: #E2E8F0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      padding: 20px 10px;
+    }
+    .card-container {
+      max-width: 620px;
+      margin: 0 auto;
+      background-color: #111827;
+      border: 1px solid #1F2937;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
+    }
+    /* Top Session Bar */
+    .session-bar {
+      background-color: #030712;
+      padding: 10px 20px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #38BDF8;
+      border-bottom: 1px solid #1F2937;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .session-badge {
+      background-color: #1E293B;
+      color: #F8FAFC;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-size: 10.5px;
+      border: 1px solid #334155;
+    }
+
+    /* Chain Ribbon */
+    .chain-container {
+      background: linear-gradient(135deg, #0F172A 0%, #1E1B4B 100%);
+      padding: 18px 22px;
+      border-bottom: 2px solid #3B82F6;
+    }
+    .chain-title {
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #93C5FD;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+    }
+    .chain-step {
+      font-size: 13px;
+      line-height: 1.45;
+      margin-bottom: 8px;
+      color: #CBD5E1;
+    }
+    .chain-step strong {
+      color: #FFFFFF;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      display: inline-block;
+      min-width: 80px;
+    }
+    .step-current {
+      color: #FDE047;
+      font-weight: 600;
+    }
+
+    /* Main Card Content */
+    .card-body {
+      padding: 24px 22px;
+    }
+    .tradition-tag {
+      display: inline-block;
+      font-size: 10.5px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 3px 8px;
+      border-radius: 4px;
+      margin-bottom: 8px;
+    }
+    .tag-indian {
+      background-color: #451A03;
+      color: #FDBA74;
+      border: 1px solid #9A3412;
+    }
+    .tag-western {
+      background-color: #082F49;
+      color: #7DD3FC;
+      border: 1px solid #0369A1;
+    }
+    .card-title {
+      font-family: "Charter", "Bitstream Charter", "Georgia", serif;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 1.25;
+      color: #F8FAFC;
+      margin-bottom: 6px;
+    }
+    .card-school {
+      font-size: 13px;
+      color: #94A3B8;
+      margin-bottom: 18px;
+    }
+
+    /* Core Dilemma */
+    .dilemma-box {
+      background-color: #1E293B;
+      border-left: 4px solid #38BDF8;
+      padding: 14px 16px;
+      border-radius: 0 8px 8px 0;
+      font-size: 14.5px;
+      font-style: italic;
+      color: #F1F5F9;
+      margin-bottom: 22px;
+      line-height: 1.5;
+    }
+
+    /* Section Headers */
+    .sec-heading {
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #94A3B8;
+      margin-top: 20px;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+    }
+
+    /* Lexicon */
+    .lexicon-group {
+      background-color: #030712;
+      border: 1px solid #1F2937;
+      border-radius: 8px;
+      padding: 12px 14px;
+      margin-bottom: 20px;
+    }
+    .lexicon-row {
+      font-size: 13px;
+      margin-bottom: 8px;
+      color: #CBD5E1;
+    }
+    .lexicon-row:last-child { margin-bottom: 0; }
+    .term-pill {
+      font-family: ui-monospace, "SFMono-Regular", Menlo, Monaco, Consolas, monospace;
+      font-size: 12px;
+      font-weight: 700;
+      color: #67E8F9;
+      background-color: #083344;
+      padding: 2px 7px;
+      border-radius: 4px;
+      border: 1px solid #155E75;
+      margin-right: 6px;
+    }
+
+    /* Dialectic Split */
+    .dialectic-wrapper {
+      margin-bottom: 22px;
+    }
+    .dialectic-block {
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin-bottom: 10px;
+      font-size: 13.5px;
+      line-height: 1.55;
+    }
+    .purvapaksha-block {
+      background-color: #1C1917;
+      border-left: 4px solid #EF4444;
+      color: #FCA5A5;
+    }
+    .siddhanta-block {
+      background-color: #064E3B;
+      background: linear-gradient(180deg, #064E3B 0%, #022C22 100%);
+      border-left: 4px solid #10B981;
+      color: #A7F3D0;
+    }
+    .block-header {
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .purvapaksha-block .block-header { color: #F87171; }
+    .siddhanta-block .block-header { color: #34D399; }
+
+    /* Primary Source Box */
+    .locus-box {
+      background-color: #0F172A;
+      border: 1px dashed #334155;
+      border-radius: 6px;
+      padding: 10px 14px;
+      font-size: 12.5px;
+      color: #94A3B8;
+      margin-bottom: 20px;
+    }
+    .locus-box strong { color: #E2E8F0; }
+
+    /* Interview Trap Box */
+    .trap-card {
+      background-color: #422006;
+      border: 1px solid #B45309;
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin-bottom: 20px;
+      font-size: 13.5px;
+      color: #FED7AA;
+      line-height: 1.5;
+    }
+    .trap-title {
+      font-size: 11.5px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #FDBA74;
+      margin-bottom: 6px;
+    }
+
+    /* Wisdom Gist */
+    .wisdom-card {
+      background-color: #1E1B4B;
+      border-left: 4px solid #818CF8;
+      border-radius: 0 8px 8px 0;
+      padding: 14px 18px;
+      font-family: "Charter", "Georgia", serif;
+      font-style: italic;
+      font-size: 15px;
+      color: #C7D2FE;
+      line-height: 1.6;
+      margin-bottom: 12px;
+    }
+
+    /* Footer */
+    .card-footer {
+      background-color: #030712;
+      padding: 16px 20px;
+      border-top: 1px solid #1F2937;
+      text-align: center;
+      font-size: 11.5px;
+      color: #64748B;
+    }
+    .card-footer a { color: #38BDF8; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="card-container">
+    <!-- Top Session Bar -->
+    <div class="session-bar">
+      <span>🌙 5:00 PM EVENING FLASH &bull; FLASH 4 OF 4</span>
+      <span class="session-badge">UNIT_02</span>
+    </div>
+
+    <!-- Dialectical Chain Ribbon -->
+    <div class="chain-container">
+      <div class="chain-title">&#128279; CONCEPTUAL CHAIN (DIALECTICAL LINEAGE)</div>
+      <div class="chain-step">
+        <strong>1. Origin:</strong> Plato&#39;s Transcendent Dual-World Theory of Forms
+      </div>
+      <div class="chain-step">
+        <strong>2. Core Pivot:</strong> <span class="step-current">Forms do not float in a separate heaven; they are immanent in matter (Hylomorphism), realizing potentiality into actuality.</span>
+      </div>
+      <div class="chain-step">
+        <strong>3. Horizon:</strong> Medieval Scholasticism (Aquinas&#39;s Five Ways &amp; Essence-Existence)
+      </div>
+    </div>
+
+    <!-- Card Body -->
+    <div class="card-body">
+      <span class="tradition-tag tag-western">
+        Western Philosophy &bull; Aristotelianism
+      </span>
+
+      <h1 class="card-title">Aristotle: The Four Causes, Hylomorphism &amp; Actuality/Potentiality</h1>
+      <div class="card-school">Topic: Substance, Hylomorphism &amp; Causes</div>
+
+      <!-- Dilemma -->
+      <div class="sec-heading">The Fundamental Dilemma</div>
+      <div class="dilemma-box">
+        "How does natural change occur without creating reality out of nothing or freezing reality into Parmenidean immobility?"
+      </div>
+
+      <!-- Lexicon -->
+      <div class="sec-heading">Canonical Vocabulary (Precision Lexicon)</div>
+      <div class="lexicon-group">
+        
+        <div class="lexicon-row">
+          <span class="term-pill">Hylomorphism</span> &mdash; Every concrete substance (ousia) is an indissoluble composite of Matter (potency) and Form (actuality).
+        </div>
+        
+        <div class="lexicon-row">
+          <span class="term-pill">Four Causes (Aitia)</span> &mdash; Material (bronze), Formal (statue shape), Efficient (sculptor), Final (telos/honor).
+        </div>
+        
+        <div class="lexicon-row">
+          <span class="term-pill">Dunamis vs. Energeia</span> &mdash; The acorn is potentially an oak tree; the mature oak tree is the realized actuality.
+        </div>
+        
+        <div class="lexicon-row">
+          <span class="term-pill">Telos (Teleology)</span> &mdash; Nature does nothing in vain; every entity is pulled forward by its inherent purpose or natural goal.
+        </div>
+        
+      </div>
+
+      <!-- The Dialectic -->
+      <div class="sec-heading">The Dialectic: Objection &amp; Resolution</div>
+      <div class="dialectic-wrapper">
+        <div class="dialectic-block purvapaksha-block">
+          <div class="block-header">Pūrvapakṣa (The Opponent's Challenge)</div>
+          Plato separated the Form from the concrete horse, creating an unbridgeable metaphysical chasm.
+        </div>
+        <div class="dialectic-block siddhanta-block">
+          <div class="block-header">Siddhānta (Philosophical Defense)</div>
+          Aristotle in Metaphysics Book VII argues: If forms exist separately, how do they cause change? Forms exist ONLY when instantiated in matter (except for the Unmoved Mover). Change is not impossible; change is the actualization of potentiality (energeia of dunamis).
+        </div>
+      </div>
+
+      <!-- Locus -->
+      <div class="sec-heading">Primary Textual Locus</div>
+      <div class="locus-box">
+        <strong>Author:</strong> Aristotle &bull;
+        <strong>Work:</strong> <em>Physics &amp; Metaphysics</em> &bull;
+        <strong>Locus:</strong> Physics II.3 (Four Causes); Metaphysics VII–IX (Substance and Actuality)
+      </div>
+
+      <!-- Selection Committee Pitfall -->
+      <div class="sec-heading">Selection Committee &amp; UGC NET Trap</div>
+      <div class="trap-card">
+        <div class="trap-title">&#9888; Interview Trap Question</div>
+        What is &#39;Primary Substance&#39; (Prōtē Ousia) for Aristotle in the Categories vs Metaphysics? In the Categories, primary substance is the individual concrete particular (this man, this horse); in Metaphysics VII, it is identified with the essential Form that makes the matter this specific thing.
+      </div>
+
+      <!-- Wisdom Gist -->
+      <div class="sec-heading">Wisdom Gist</div>
+      <div class="wisdom-card">
+        "Growth is not an arbitrary accident. Within every seed, every thought, and every human being lies a slumbering potential waiting to flower into its true form."
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="card-footer">
+      <strong>Philosophy Gist</strong> &bull; Central University Assistant Professor &amp; UGC NET Preparation.<br>
+      Delivered directly to <strong>anshukumar64149@gmail.com</strong> on scheduled frequency.
+    </div>
+  </div>
+</body>
+</html>
