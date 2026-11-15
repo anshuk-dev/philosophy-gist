@@ -317,5 +317,49 @@
     "status": "sent",
     "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
     "timestamp": "2026-11-14T17:14:53.597878"
+  },
+  {
+    "issue_number": "5 AM-20261115-1",
+    "title": "Vi\u015bi\u1e63\u1e6d\u0101dvaita Ved\u0101nta: R\u0101m\u0101nuja's Aprathaksiddhi & Saptavidh\u0101 Anupapatti",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #5 AM-20261115-1: Vi\u015bi\u1e63\u1e6d\u0101dvaita Ved\u0101nta: R\u0101m\u0101nuja's Aprathaksiddhi & Saptavidh\u0101 Anupapatti",
+    "dry_run": false,
+    "status": "sent",
+    "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
+    "timestamp": "2026-11-15T02:54:29.165022"
+  },
+  {
+    "issue_number": "5 AM-20261115-2",
+    "title": "Madhyamaka Buddhism: Prat\u012btyasamutp\u0101da and N\u0101g\u0101rjuna's \u015a\u016bnyat\u0101",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #5 AM-20261115-2: Madhyamaka Buddhism: Prat\u012btyasamutp\u0101da and N\u0101g\u0101rjuna's \u015a\u016bnyat\u0101",
+    "dry_run": false,
+    "status": "sent",
+    "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
+    "timestamp": "2026-11-15T02:54:32.272045"
+  },
+  {
+    "issue_number": "5 AM-20261115-3",
+    "title": "Fundamental Ontology / Existentialism: Heidegger's Dasein, Being-in-the-world & Zuhandenheit",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #5 AM-20261115-3: Fundamental Ontology / Existentialism: Heidegger's Dasein, Being-in-the-world & Zuhandenheit",
+    "dry_run": false,
+    "status": "sent",
+    "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
+    "timestamp": "2026-11-15T02:54:35.313762"
+  },
+  {
+    "issue_number": "5 AM-20261115-4",
+    "title": "Existentialism: Sartre: Existence Precedes Essence & Bad Faith",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #5 AM-20261115-4: Existentialism: Sartre: Existence Precedes Essence & Bad Faith",
+    "dry_run": false,
+    "status": "sent",
+    "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
+    "timestamp": "2026-11-15T02:54:38.371140"
   }
 ]
