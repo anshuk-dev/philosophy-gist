@@ -19,7 +19,11 @@
     "IND_JAINA_001",
     "IND_CONTEMP_001",
     "WEST_ANC_001",
-    "WEST_ANC_002"
+    "WEST_ANC_002",
+    "IND_CONTEMP_002",
+    "IND_CONTEMP_003",
+    "WEST_ANC_003",
+    "WEST_MOD_002"
   ],
   "history": [
     {
@@ -114,6 +118,18 @@
         "IND_CONTEMP_001",
         "WEST_ANC_001",
         "WEST_ANC_002"
+      ],
+      "dry_run": false,
+      "success_count": 4
+    },
+    {
+      "timestamp": "2026-11-16T02:54:16.889626",
+      "session": "morning_5am",
+      "cards_sent": [
+        "IND_CONTEMP_002",
+        "IND_CONTEMP_003",
+        "WEST_ANC_003",
+        "WEST_MOD_002"
       ],
       "dry_run": false,
       "success_count": 4
