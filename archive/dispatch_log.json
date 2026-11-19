@@ -669,5 +669,49 @@
     "status": "sent",
     "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
     "timestamp": "2026-11-18T19:28:16.567879"
+  },
+  {
+    "issue_number": "5 AM-20261119-1",
+    "title": "Jainism: Anek\u0101ntav\u0101da, Sy\u0101dv\u0101da & Nayav\u0101da",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #5 AM-20261119-1: Jainism: Anek\u0101ntav\u0101da, Sy\u0101dv\u0101da & Nayav\u0101da",
+    "dry_run": false,
+    "status": "sent",
+    "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
+    "timestamp": "2026-11-19T04:19:22.792557"
+  },
+  {
+    "issue_number": "5 AM-20261119-2",
+    "title": "Contemporary Indian: Sri Aurobindo: Involution-Evolution & The Supermind",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #5 AM-20261119-2: Contemporary Indian: Sri Aurobindo: Involution-Evolution & The Supermind",
+    "dry_run": false,
+    "status": "sent",
+    "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
+    "timestamp": "2026-11-19T04:19:26.626543"
+  },
+  {
+    "issue_number": "5 AM-20261119-3",
+    "title": "Platonism: Plato: The Theory of Forms, Divided Line & Allegory of the Cave",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #5 AM-20261119-3: Platonism: Plato: The Theory of Forms, Divided Line & Allegory of the Cave",
+    "dry_run": false,
+    "status": "sent",
+    "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
+    "timestamp": "2026-11-19T04:19:30.338698"
+  },
+  {
+    "issue_number": "5 AM-20261119-4",
+    "title": "Aristotelianism: Aristotle: The Four Causes, Hylomorphism & Actuality/Potentiality",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #5 AM-20261119-4: Aristotelianism: Aristotle: The Four Causes, Hylomorphism & Actuality/Potentiality",
+    "dry_run": false,
+    "status": "sent",
+    "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
+    "timestamp": "2026-11-19T04:19:34.005781"
   }
 ]
