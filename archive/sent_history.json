@@ -3,7 +3,11 @@
     "IND_EPIST_001",
     "IND_EPIST_002",
     "WEST_MOD_001",
-    "WEST_MOD_004"
+    "WEST_MOD_004",
+    "IND_LOGIC_001",
+    "IND_LOGIC_002",
+    "WEST_MOD_005",
+    "WEST_META_001"
   ],
   "history": [
     {
@@ -218,6 +222,18 @@
         "IND_EPIST_002",
         "WEST_MOD_001",
         "WEST_MOD_004"
+      ],
+      "dry_run": false,
+      "success_count": 4
+    },
+    {
+      "timestamp": "2026-11-21T04:06:41.597863",
+      "session": "morning_5am",
+      "cards_sent": [
+        "IND_LOGIC_001",
+        "IND_LOGIC_002",
+        "WEST_MOD_005",
+        "WEST_META_001"
       ],
       "dry_run": false,
       "success_count": 4
