@@ -1021,5 +1021,49 @@
     "status": "sent",
     "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
     "timestamp": "2026-11-22T18:36:22.970582"
+  },
+  {
+    "issue_number": "5 AM-20261123-1",
+    "title": "Contemporary Indian / Social-Political: Dr. B. R. Ambedkar: Navay\u0101na & Annihilation of Caste",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #5 AM-20261123-1: Contemporary Indian / Social-Political: Dr. B. R. Ambedkar: Navay\u0101na & Annihilation of Caste",
+    "dry_run": false,
+    "status": "sent",
+    "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
+    "timestamp": "2026-11-23T03:52:22.384952"
+  },
+  {
+    "issue_number": "5 AM-20261123-2",
+    "title": "Contemporary Indian: Swami Vivekananda: Practical Ved\u0101nta & Universal Religion",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #5 AM-20261123-2: Contemporary Indian: Swami Vivekananda: Practical Ved\u0101nta & Universal Religion",
+    "dry_run": false,
+    "status": "sent",
+    "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
+    "timestamp": "2026-11-23T03:52:26.155856"
+  },
+  {
+    "issue_number": "5 AM-20261123-3",
+    "title": "Aristotelian Virtue Ethics: Aristotle: Eudaimonia, Aret\u0113 & The Doctrine of the Mean",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #5 AM-20261123-3: Aristotelian Virtue Ethics: Aristotle: Eudaimonia, Aret\u0113 & The Doctrine of the Mean",
+    "dry_run": false,
+    "status": "sent",
+    "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
+    "timestamp": "2026-11-23T03:52:29.843115"
+  },
+  {
+    "issue_number": "5 AM-20261123-4",
+    "title": "Continental Rationalism: Spinoza: Substance Monism (Deus sive Natura) & Intellectual Love of God",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #5 AM-20261123-4: Continental Rationalism: Spinoza: Substance Monism (Deus sive Natura) & Intellectual Love of God",
+    "dry_run": false,
+    "status": "sent",
+    "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
+    "timestamp": "2026-11-23T03:52:33.395002"
   }
 ]
