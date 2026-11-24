@@ -1109,5 +1109,49 @@
     "status": "sent",
     "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
     "timestamp": "2026-11-23T22:48:10.016462"
+  },
+  {
+    "issue_number": "5 PM-20261124-1",
+    "title": "M\u012bm\u0101\u1e43s\u0101 / Ny\u0101ya: Svata\u1e25 Pr\u0101m\u0101\u1e47yav\u0101da vs. Parata\u1e25 Pr\u0101m\u0101\u1e47yav\u0101da",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #5 PM-20261124-1: M\u012bm\u0101\u1e43s\u0101 / Ny\u0101ya: Svata\u1e25 Pr\u0101m\u0101\u1e47yav\u0101da vs. Parata\u1e25 Pr\u0101m\u0101\u1e47yav\u0101da",
+    "dry_run": false,
+    "status": "sent",
+    "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
+    "timestamp": "2026-11-24T07:00:04.422161"
+  },
+  {
+    "issue_number": "5 PM-20261124-2",
+    "title": "Ny\u0101ya-Vai\u015be\u1e63ika: Pratyak\u1e63a: Nirvikalpaka vs. Savikalpaka & \u1e62a\u1e0dvidha-Sannikar\u1e63a",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #5 PM-20261124-2: Ny\u0101ya-Vai\u015be\u1e63ika: Pratyak\u1e63a: Nirvikalpaka vs. Savikalpaka & \u1e62a\u1e0dvidha-Sannikar\u1e63a",
+    "dry_run": false,
+    "status": "sent",
+    "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
+    "timestamp": "2026-11-24T07:00:08.173380"
+  },
+  {
+    "issue_number": "5 PM-20261124-3",
+    "title": "Continental Rationalism: Descartes' Method of Doubt & The Cogito",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #5 PM-20261124-3: Continental Rationalism: Descartes' Method of Doubt & The Cogito",
+    "dry_run": false,
+    "status": "sent",
+    "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
+    "timestamp": "2026-11-24T07:00:12.013641"
+  },
+  {
+    "issue_number": "5 PM-20261124-4",
+    "title": "British Empiricism: Locke's Tabula Rasa & Primary vs. Secondary Qualities",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #5 PM-20261124-4: British Empiricism: Locke's Tabula Rasa & Primary vs. Secondary Qualities",
+    "dry_run": false,
+    "status": "sent",
+    "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
+    "timestamp": "2026-11-24T07:00:15.762730"
   }
 ]

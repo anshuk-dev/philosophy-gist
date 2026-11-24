@@ -3,31 +3,7 @@
     "IND_EPIST_001",
     "IND_EPIST_002",
     "WEST_MOD_001",
-    "WEST_MOD_004",
-    "IND_LOGIC_001",
-    "IND_LOGIC_002",
-    "WEST_MOD_005",
-    "WEST_META_001",
-    "IND_META_001",
-    "IND_VEDAN_001",
-    "WEST_EPIST_001",
-    "WEST_CONT_001",
-    "IND_VEDAN_002",
-    "IND_BUDDH_001",
-    "WEST_PHENOM_001",
-    "WEST_CONT_002",
-    "IND_JAINA_001",
-    "IND_CONTEMP_001",
-    "WEST_ANC_001",
-    "WEST_ANC_002",
-    "IND_CONTEMP_002",
-    "IND_CONTEMP_003",
-    "WEST_ANC_003",
-    "WEST_MOD_002",
-    "IND_CONTEMP_004",
-    "IND_VEDAN_003",
-    "WEST_LANG_001",
-    "WEST_ETH_001"
+    "WEST_MOD_004"
   ],
   "history": [
     {
@@ -314,6 +290,18 @@
         "IND_VEDAN_003",
         "WEST_LANG_001",
         "WEST_ETH_001"
+      ],
+      "dry_run": false,
+      "success_count": 4
+    },
+    {
+      "timestamp": "2026-11-24T07:00:15.764009",
+      "session": "evening_5pm",
+      "cards_sent": [
+        "IND_EPIST_001",
+        "IND_EPIST_002",
+        "WEST_MOD_001",
+        "WEST_MOD_004"
       ],
       "dry_run": false,
       "success_count": 4
