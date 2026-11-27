@@ -1,10 +1,9 @@
 name: Philosophy Gist Scheduled Flashcards (5 AM & 5 PM IST)
 
 on:
-  schedule:
-    # 5:00 AM IST is 23:30 UTC (previous day)
-    # 5:00 PM IST is 11:30 UTC
-    - cron: '30 11,23 * * *'
+  # Automated schedule disabled as requested.
+  # schedule:
+  #   - cron: '30 11,23 * * *'
   workflow_dispatch:
     inputs:
       session:
