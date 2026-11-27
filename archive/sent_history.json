@@ -23,7 +23,11 @@
     "IND_CONTEMP_002",
     "IND_CONTEMP_003",
     "WEST_ANC_003",
-    "WEST_MOD_002"
+    "WEST_MOD_002",
+    "IND_CONTEMP_004",
+    "IND_VEDAN_003",
+    "WEST_LANG_001",
+    "WEST_ETH_001"
   ],
   "history": [
     {
@@ -382,6 +386,18 @@
         "IND_CONTEMP_003",
         "WEST_ANC_003",
         "WEST_MOD_002"
+      ],
+      "dry_run": false,
+      "success_count": 4
+    },
+    {
+      "timestamp": "2026-11-27T05:13:47.906140",
+      "session": "morning_5am",
+      "cards_sent": [
+        "IND_CONTEMP_004",
+        "IND_VEDAN_003",
+        "WEST_LANG_001",
+        "WEST_ETH_001"
       ],
       "dry_run": false,
       "success_count": 4

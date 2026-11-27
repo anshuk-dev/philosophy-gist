@@ -1373,5 +1373,49 @@
     "status": "sent",
     "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
     "timestamp": "2026-11-26T20:21:02.984540"
+  },
+  {
+    "issue_number": "5 AM-20261127-1",
+    "title": "Contemporary Indian / Moral Philosophy: M. K. Gandhi: Saty\u0101graha, Ahi\u1e43s\u0101 & Truth as God",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #5 AM-20261127-1: Contemporary Indian / Moral Philosophy: M. K. Gandhi: Saty\u0101graha, Ahi\u1e43s\u0101 & Truth as God",
+    "dry_run": false,
+    "status": "sent",
+    "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
+    "timestamp": "2026-11-27T05:13:36.880772"
+  },
+  {
+    "issue_number": "5 AM-20261127-2",
+    "title": "Dvaita Ved\u0101nta: Madhv\u0101c\u0101rya: Pa\u00f1ca-Bheda & Svatantra-Asvatantra Tattva",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #5 AM-20261127-2: Dvaita Ved\u0101nta: Madhv\u0101c\u0101rya: Pa\u00f1ca-Bheda & Svatantra-Asvatantra Tattva",
+    "dry_run": false,
+    "status": "sent",
+    "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
+    "timestamp": "2026-11-27T05:13:40.569636"
+  },
+  {
+    "issue_number": "5 AM-20261127-3",
+    "title": "Analytic Philosophy / Philosophy of Language: Frege: Sense (Sinn) & Reference (Bedeutung)",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #5 AM-20261127-3: Analytic Philosophy / Philosophy of Language: Frege: Sense (Sinn) & Reference (Bedeutung)",
+    "dry_run": false,
+    "status": "sent",
+    "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
+    "timestamp": "2026-11-27T05:13:44.250688"
+  },
+  {
+    "issue_number": "5 AM-20261127-4",
+    "title": "Kantian Moral Philosophy: Kant: The Categorical Imperative & Kingdom of Ends",
+    "sender": "anshu.philosophy@gmail.com",
+    "recipient": "anshukumar64149@gmail.com",
+    "subject": "DU Philosophy Gist #5 AM-20261127-4: Kantian Moral Philosophy: Kant: The Categorical Imperative & Kingdom of Ends",
+    "dry_run": false,
+    "status": "sent",
+    "message": "Successfully delivered to anshukumar64149@gmail.com via SMTP",
+    "timestamp": "2026-11-27T05:13:47.905250"
   }
 ]
